@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
 
-    <!-- (optional) quick styles so it’s readable -->
     <style>
-      :root { --max: 1080px; --g: 1rem; --fg:#111; --bg:#fff; --muted:#666;}
-      body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);}
-      header,main,footer{max-width:var(--max);margin:0 auto;padding:1rem;}
-      header{border-bottom:1px solid #eee;}
-      nav a{margin-right:.75rem;}
-      .muted{color:var(--muted);}
-      article img{max-width:100%;height:auto;display:block;margin:1rem 0;}
-      .grid{display:grid;gap:var(--g);}
-      .grid.toc{grid-template-columns: 1fr;}
-      @media(min-width:1000px){ .grid.toc{grid-template-columns: 3fr 1fr;} }
+      :root {
+        --max: 1080px; --g: 1rem;
+        --bg: #ffffff; --fg:#111827;
+        --muted:#6b7280; --border:#e5e7eb;
+        --brand:#4f46e5; --brand-600:#4f46e5; --brand-700:#4338ca; --brand-50:#eef2ff;
+      }
+      *{box-sizing:border-box}
+      html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+      a{color:var(--brand-700);text-decoration:none}
+      a:hover{text-decoration:underline}
+      header,main,footer{max-width:var(--max);margin:0 auto;padding:1rem}
+      header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border)}
+      .site-title{font-weight:700;margin:0;font-size:1.25rem}
+      nav a{margin-right:1rem;color:var(--brand-600)}
+      nav a:last-child{margin-right:0}
+      .cards{display:grid;gap:1rem;margin-top:1.25rem}
+      @media(min-width:900px){ .cards{grid-template-columns:repeat(2,1fr)} }
+      .card{display:block;border:1px solid var(--border);border-radius:.5rem;padding:1rem;background:var(--brand-50)}
+      .card h2{margin:.25rem 0;font-size:1.1rem}
+      .muted{color:var(--muted)}
+      article img{max-width:100%;height:auto;margin:1rem 0;display:block}
+      footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
     </style>
   </head>
   <body>
     <header>
-      <h1 style="margin:.25rem 0">{{ .Site.Title }}</h1>
+      <h1 class="site-title">{{ .Site.Title }}</h1>
       <nav>
-        <a href="{{ "" | relURL }}">Home</a>
-        <a href="{{ "user-guides/" | relURL }}">User Guides</a>
-        <a href="{{ "api-guides/" | relURL }}">API Guides</a>
-        <a href="{{ "how-to-articles/" | relURL }}">How‑To Articles</a>
-        <a href="{{ "technical-reference-guides/" | relURL }}">Technical Reference Guides</a>
+        {{ Home</a>
+        {{ User Guides</a>
+        {{ API Guides</a>
+        {{ How to Articles</a>
+        {{ Technical Reference Guides</a>
       </nav>
     </header>
 
@@ -35,8 +46,9 @@
       {{ block "main" . }}{{ end }}
     </main>
 
-    <footer class="muted">
-      <p>© {{ now.Year }} {{ .Site.Author.name | default "" }}</p>
+    <footer>
+      © {{ now.Year }} {{ .Site.Author.name | default "" }}
     </footer>
   </body>
 </html>
+``
