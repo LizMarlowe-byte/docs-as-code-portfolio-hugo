@@ -1,8 +1,7 @@
-# AuroraOps Platform 5.2.0 Release Notes
-
-!!! abstract ""
-    This document summarizes the new features, product enhancements, resolved issues, and known issues in **AuroraOps Platform 5.2.0**.
-
+---
+title: "How to create a relationship table in MadCap Flare"
+summary: "This document summarizes the new features, product enhancements, resolved issues, and known issues in AuroraOps Platform 5.2.0."
+draft: false
 ---
 
 ## <h2 id="auroraOps-5.2.0-overview">📄 AuroraOps 5.2.0 overview</h2> 
