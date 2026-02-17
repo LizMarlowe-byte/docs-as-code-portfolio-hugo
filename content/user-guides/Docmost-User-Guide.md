@@ -1,8 +1,7 @@
-# Docmost User Guide
-
-!!! abstract ""
-    This guide introduces _Docmost_, a collaborative wiki platform for teams and organizations. It walks you through common tasks, logical workflows, and essential features to help you create, collaborate, and manage content with confidence.
-
+---
+title: "Docmost User Guide"
+summary: "This guide introduces Docmost, a collaborative wiki platform for teams and organizations. It walks you through common tasks, logical workflows, and essential features to help you create, collaborate, and manage content with confidence."
+draft: false
 ---
 
 ## 🧭 Introduction to Docmost
