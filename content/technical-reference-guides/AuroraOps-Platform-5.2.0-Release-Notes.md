@@ -1,5 +1,5 @@
 ---
-title: "How to create a relationship table in MadCap Flare"
+title: "AuroraOps Platform 5.2.0 Release Notes"
 summary: "This document summarizes the new features, product enhancements, resolved issues, and known issues in AuroraOps Platform 5.2.0."
 draft: false
 ---
