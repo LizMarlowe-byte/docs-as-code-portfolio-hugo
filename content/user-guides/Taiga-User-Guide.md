@@ -1,8 +1,7 @@
-# Taiga User Guide
-
-!!! abstract ""
-    This guide introduces _Taiga_, an open-source project management platform built for Agile teams. It provides clear workflows and step-by-step instructions for essential tasks—creating projects, managing backlogs and sprints, collaborating with teammates, and working efficiently within Agile processes.
-
+---
+title: "Taiga User Guide"
+summary: "This guide introduces Taiga, an open-source project management platform built for Agile teams. It provides clear workflows and step-by-step instructions for essential tasks—creating projects, managing backlogs and sprints, collaborating with teammates, and working efficiently within Agile processes."
+draft: false
 ---
 
 ## 🧭 Introduction to Taiga 
