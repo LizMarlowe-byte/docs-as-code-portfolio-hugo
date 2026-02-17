@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <section>
+    <h1>{{ .Title | default "Documentation" }}</h1>
+    {{ with .Content }}<div class="muted">{{ . }}</div>{{ end }}
+
+    {{ if .Sections }}
+      <h2>Sections</h2>
+      <ul>
+        {{ range .Sections }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Params.summary }}<span class="muted"> — {{ . }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+
+    {{ if .Pages }}
+      <h2>Pages</h2>
+      <ul>
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Params.summary }}<span class="muted"> — {{ . }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </section>
+{{ end }}
