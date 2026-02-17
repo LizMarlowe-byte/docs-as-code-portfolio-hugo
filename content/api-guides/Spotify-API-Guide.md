@@ -1,8 +1,7 @@
-# Spotify Web API Guide
-
-!!! abstract ""
-    This guide describes the _Spotify Web API_, a powerful REST API that enables developers to access Spotify’s music catalog and user data. It covers conceptual overviews (OAuth flows, app access modes, rate limiting), a task‑based tutorial, and a curated API reference with realistic examples and parameter tables.
-
+---
+title: "Spotify API Guide"
+summary: "This guide describes the Spotify Web API, a powerful REST API that enables developers to access Spotify’s music catalog and user data. It covers conceptual overviews (OAuth flows, app access modes, rate limiting), a task‑based tutorial, and a curated API reference with realistic examples and parameter tables."
+draft: false
 ---
 
 ## 🎧 Overview
