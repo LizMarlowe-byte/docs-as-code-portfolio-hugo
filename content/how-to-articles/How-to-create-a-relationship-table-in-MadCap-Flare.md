@@ -1,8 +1,7 @@
-# How to create a relationship table in MadCap Flare
-
-!!! abstract ""
-    This article provides step-by-step instructions for creating a relationship table in MadCap Flare for content developers.
-	
+---
+title: "How to create a relationship table in MadCap Flare"
+summary: "This article provides step-by-step instructions for creating a relationship table in MadCap Flare for content developers."
+draft: false
 ---
 
 ## <h2 id="overview">📝 Overview</h2>
