@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+
+    <!-- (optional) quick styles so it’s readable -->
+    <style>
+      :root { --max: 1080px; --g: 1rem; --fg:#111; --bg:#fff; --muted:#666;}
+      body{margin:0;font:16px/1.5 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);}
+      header,main,footer{max-width:var(--max);margin:0 auto;padding:1rem;}
+      header{border-bottom:1px solid #eee;}
+      nav a{margin-right:.75rem;}
+      .muted{color:var(--muted);}
+      article img{max-width:100%;height:auto;display:block;margin:1rem 0;}
+      .grid{display:grid;gap:var(--g);}
+      .grid.toc{grid-template-columns: 1fr;}
+      @media(min-width:1000px){ .grid.toc{grid-template-columns: 3fr 1fr;} }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="margin:.25rem 0">{{ .Site.Title }}</h1>
+      <nav>
+        <a href="{{ "" | relURL }}">Home</a>
+        <a href="{{ "user-guides/" | relURL }}">User Guides</a>
+        <a href="{{ "api-guides/" | relURL }}">API Guides</a>
+        <a href="{{ "how-to/" | relURL }}">How‑To</a>
+        <a href="{{ "reference/" | relURL }}">Reference</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="muted">
+      <p>© {{ now.Year }} {{ .Site.Author.name | default "" }}</p>
+    </footer>
+  </body>
+</html>
