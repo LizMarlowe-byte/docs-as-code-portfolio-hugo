@@ -24,7 +24,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
 
-      # Install Hugo Extended
+      # Install Hugo Extended (adjust version if you like)
       - name: Install Hugo (Extended)
         run: |
           HUGO_VERSION=0.121.2
@@ -32,7 +32,7 @@ jobs:
           tar -xzf hugo.tar.gz
           sudo mv hugo /usr/local/bin/hugo
 
-      # Build the site. Using base_url from configure-pages ensures correct subpath (/<repo>/)
+      # Build the site; use the base_url from configure-pages so subpath (/<repo>/) is correct
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
