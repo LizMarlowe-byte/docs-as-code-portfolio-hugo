@@ -1,8 +1,7 @@
-# OpenWeatherMap API Guide
-
-!!! abstract ""
-    This guide describes the _OpenWeatherMap API_, a comprehensive weather data service for developers. It covers essential concepts—API hosts, authentication, rate limits, and pagination—along with a practical onboarding tutorial and a curated reference organized by resource type.
-
+---
+title: "OpenWeatherMap API Guide"
+summary: "This guide describes the OpenWeatherMap API, a comprehensive weather data service for developers. It covers essential concepts—API hosts, authentication, rate limits, and pagination—along with a practical onboarding tutorial and a curated reference organized by resource type."
+draft: false
 ---
 
 ## 🌤️ Overview
