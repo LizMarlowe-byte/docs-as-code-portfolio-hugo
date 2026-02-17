@@ -1,0 +1,10 @@
+baseURL = "https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/"
+title = "Docs Site Using Hugo"
+languageCode = "en-us"
+# (No theme yet; we can add one later)
+
+[permalinks]
+  user-guides = "/user-guides/:slug/"
+  api-guides  = "/api-guides/:slug/"
+  how-to      = "/how-to/:slug/"
+  reference   = "/reference/:slug/"
