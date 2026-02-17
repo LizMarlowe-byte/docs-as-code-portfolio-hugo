@@ -1,4 +1,4 @@
 ---
-title: "User Guides"
-summary: "This curated collection of user guides provides clear, accessible documentation that supports successful product use."
+title: "How To Articles"
+summary: "This how‑to article provides create clear, task‑based instructions that guide users through completing a specific workflow."
 ---
