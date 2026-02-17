@@ -1,8 +1,7 @@
-# Optiflow CloudSync CRM Integration Guide
-
-!!! abstract ""
-    This guide describes the system integration between the Optiflow system and the CloudSync CRM system.
-
+---
+title: "Optiflow CloudSync CRM Integration Guide"
+summary: "This guide describes the system integration between the Optiflow system and the CloudSync CRM system."
+draft: false
 ---
 
 ## 🔗 Optiflow-CloudSync CRM integration 
