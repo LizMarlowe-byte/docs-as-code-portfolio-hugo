@@ -1,30 +1,48 @@
 {{ define "main" }}
-  <section>
-    <h1>{{ .Title | default "Documentation" }}</h1>
-    {{ with .Content }}<div class="muted">{{ . }}</div>{{ end }}
 
-    {{ if .Sections }}
-      <h2>Sections</h2>
-      <ul>
-        {{ range .Sections }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ with .Params.summary }}<span class="muted"> — {{ . }}</span>{{ end }}
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
+  {{ if .IsHome }}
+    <h1>{{ .Title | default "Welcome" }}</h1>
+    {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
 
-    {{ if .Pages }}
-      <h2>Pages</h2>
-      <ul>
-        {{ range .Pages }}
-          <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ with .Params.summary }}<span class="muted"> — {{ . }}</span>{{ end }}
-          </li>
-        {{ end }}
-      </ul>
-    {{ end }}
-  </section>
+    <section class="cards">
+      {{ 
+        <h2>User Guides</h2>
+        <p class="muted">{{ with site.GetPage "section" "user-guides" }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      {{ 
+        <h2>API Guides</h2>
+        <p class="muted">{{ with site.GetPage "section" "api-guides" }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      {{ 
+        <h2>How to Articles</h2>
+        <p class="muted">{{ with site.GetPage "section" "how-to-articles" }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      {{ 
+        <h2>Technical Reference Guides</h2>
+        <p class="muted">{{ with site.GetPage "section" "technical-reference-guides" }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+    </section>
+
+  {{ else if .IsSection }}
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
+
+    <ul>
+      {{ range .Pages.ByTitle }}
+        <li>{{ .RelPermalink }}{{ .Title }}</a></li>
+      {{ else }}
+        <p class="muted">No pages found in this section.</p>
+      {{ end }}
+    </ul>
+
+  {{ else }}
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </article>
+  {{ end }}
+
 {{ end }}
