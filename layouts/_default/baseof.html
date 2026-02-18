@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
 
-    <!-- Inline base styles (you can move these to assets/css later) -->
     <style>
       :root {
         --max: 1080px; --g: 1rem;
@@ -24,7 +23,7 @@
       nav a{margin-right:1rem;color:var(--brand-600)}
       nav a:last-child{margin-right:0}
 
-      /* Card grid (homepage hero) */
+      /* Cards */
       .cards{display:grid;gap:1rem;margin-top:1.25rem}
       @media(min-width:900px){ .cards{grid-template-columns:repeat(2,1fr)} }
       .card{
@@ -38,10 +37,17 @@
       .muted{color:var(--muted)}
       article img{max-width:100%;height:auto;margin:1rem 0;display:block}
 
-      /* ✅ Basic table styles (your request) */
+      /* ✅ Table styles */
       table{border-collapse:collapse;width:100%;margin:1rem 0}
       th,td{border:1px solid var(--border);padding:.5rem .6rem;vertical-align:top}
       th{background:#f8fafc;text-align:left}
+
+      /* Optional: admonition base look */
+      .admonition{border:1px solid var(--border);border-left-width:4px;border-radius:.5rem;padding:.75rem 1rem;margin:1rem 0;background:#f9fafb}
+      .admonition-title{font-weight:600;margin:.1rem 0 .5rem}
+      .admonition.note{border-left-color:#3b82f6}
+      .admonition.tip{border-left-color:#10b981}
+      .admonition.warning{border-left-color:#f59e0b}
 
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
     </style>
