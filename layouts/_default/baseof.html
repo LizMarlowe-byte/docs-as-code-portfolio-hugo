@@ -57,13 +57,13 @@
   <body>
     <header>
       <h1 class="site-title">{{ .Site.Title }}</h1>
-      <nav>
-        {{ "/" | relURL }}">About this Site</a>
-        {{ (site.GetPage "section" "user-guides").RelPermalink }}User Guides</a>
-        {{ (site.GetPage "section" "api-guides").RelPermalink }}API Guides</a>
-       {{ (site.GetPage "section" "how-to-articles").RelPermalink }}How to Articles</a>
-       {{ (site.GetPage "section" "technical-reference-guides").RelPermalink }}Technical Reference Guides</a>
-      </nav>
+     <nav>
+      {{ (site.GetPage "/about").RelPermalink }}">About this Site</a>
+      {{ (site.GetPage "section" "user-guides").RelPermalink }}User Guides</a>
+      {{ (site.GetPage "section" "api-guides").RelPermalink }}API Guides</a>
+      {{ (site.GetPage "section" "how-to-articles").RelPermalink }}How to Articles</a>
+      {{ (site.GetPage "section" "technical-reference-guides").RelPermalink }}Technical Reference Guides</a>
+</nav>
     </header>
 
     <main>
