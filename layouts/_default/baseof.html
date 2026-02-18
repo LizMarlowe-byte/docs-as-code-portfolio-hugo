@@ -13,7 +13,8 @@
         --brand:#4f46e5; --brand-600:#4f46e5; --brand-700:#4338ca; --brand-50:#eef2ff;
       }
       *{box-sizing:border-box}
-      html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+      html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);
+        font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
       a{color:var(--brand-700);text-decoration:none}
       a:hover{text-decoration:underline}
 
@@ -23,7 +24,7 @@
       nav a{margin-right:1rem;color:var(--brand-600)}
       nav a:last-child{margin-right:0}
 
-      /* Cards */
+      /* Cards (homepage hero) */
       .cards{display:grid;gap:1rem;margin-top:1.25rem}
       @media(min-width:900px){ .cards{grid-template-columns:repeat(2,1fr)} }
       .card{
@@ -42,8 +43,9 @@
       th,td{border:1px solid var(--border);padding:.5rem .6rem;vertical-align:top}
       th{background:#f8fafc;text-align:left}
 
-      /* Optional: admonition base look */
-      .admonition{border:1px solid var(--border);border-left-width:4px;border-radius:.5rem;padding:.75rem 1rem;margin:1rem 0;background:#f9fafb}
+      /* Optional: basic admonitions if you converted to shortcodes */
+      .admonition{border:1px solid var(--border);border-left-width:4px;border-radius:.5rem;
+        padding:.75rem 1rem;margin:1rem 0;background:#f9fafb}
       .admonition-title{font-weight:600;margin:.1rem 0 .5rem}
       .admonition.note{border-left-color:#3b82f6}
       .admonition.tip{border-left-color:#10b981}
