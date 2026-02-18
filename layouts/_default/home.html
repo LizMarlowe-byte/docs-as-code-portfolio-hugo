@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <!-- HERO: category cards at the top, centered -->
+  <section style="text-align:center;max-width:900px;margin:0 auto;">
+    <h1>Documentation</h1>
+    <p class="muted">Explore the guide categories below.</p>
+
+    <div class="cards" style="margin-top:1.25rem">
+      {{ $ug := site.GetPage "section" "user-guides" }}
+      {{ $ag := site.GetPage "section" "api-guides" }}
+      {{ $ht := site.GetPage "section" "how-to-articles" }}
+      {{ $rg := site.GetPage "section" "technical-reference-guides" }}
+
+      {{ $ug.RelPermalink }}<h2>User Guides</h2>
+        <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p></a>
+
+      {{ $ag.RelPermalink }}<h2>API Guides</h2>
+        <p class="muted">{{ with $ag }}{{ .Params.summary }}{{ end }}</p></a>
+
+      {{ $ht.RelPermalink }}<h2>How to Articles</h2>
+        <p class="muted">{{ with $ht }}{{ .Params.summary }}{{ end }}</p></a>
+
+      {{ $rg.RelPermalink }}<h2>Technical Reference Guides</h2>
+        <p class="muted">{{ with $rg }}{{ .Params.summary }}{{ end }}</p></a>
+    </div>
+  </section>
+
+  <!-- ABOUT: render content/_index.md below the hero -->
+  <section style="max-width:1080px;margin:2rem auto 0;">
+    {{ .Content }}
+  </section>
+{{ end }}
