@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .Title }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
 
+    <!-- Inline base styles (you can move these to assets/css later) -->
     <style>
       :root {
         --max: 1080px; --g: 1rem;
@@ -16,30 +17,45 @@
       html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
       a{color:var(--brand-700);text-decoration:none}
       a:hover{text-decoration:underline}
+
       header,main,footer{max-width:var(--max);margin:0 auto;padding:1rem}
       header{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border)}
       .site-title{font-weight:700;margin:0;font-size:1.25rem}
       nav a{margin-right:1rem;color:var(--brand-600)}
       nav a:last-child{margin-right:0}
+
+      /* Card grid (homepage hero) */
       .cards{display:grid;gap:1rem;margin-top:1.25rem}
       @media(min-width:900px){ .cards{grid-template-columns:repeat(2,1fr)} }
-      .card{display:block;border:1px solid var(--border);border-radius:.5rem;padding:1rem;background:var(--brand-50)}
+      .card{
+        display:block;border:1px solid var(--border);border-radius:.75rem;
+        padding:1rem;background:#fff;
+        box-shadow:0 1px 2px rgba(0,0,0,.04);
+        transition:transform .12s ease, box-shadow .12s ease;
+      }
+      .card:hover{transform:translateY(-2px);box-shadow:0 6px 16px rgba(0,0,0,.08)}
       .card h2{margin:.25rem 0;font-size:1.1rem}
       .muted{color:var(--muted)}
       article img{max-width:100%;height:auto;margin:1rem 0;display:block}
+
+      /* ✅ Basic table styles (your request) */
+      table{border-collapse:collapse;width:100%;margin:1rem 0}
+      th,td{border:1px solid var(--border);padding:.5rem .6rem;vertical-align:top}
+      th{background:#f8fafc;text-align:left}
+
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
     </style>
   </head>
   <body>
     <header>
       <h1 class="site-title">{{ .Site.Title }}</h1>
- <nav>
-  {{ "/" | relURL }}">Home</a>
-  {{ (site.GetPage "section" "user-guides").RelPermalink }}User Guides</a>
-  {{ (site.GetPage "section" "api-guides").RelPermalink }}API Guides</a>
-  {{ (site.GetPage "section" "how-to-articles").RelPermalink }}How to Articles</a>
-  {{ (site.GetPage "section" "technical-reference-guides").RelPermalink }}Technical Reference Guides</a>
-  </nav>
+      <nav>
+        <a href="{{ "/" | relURL }}">Home</a>
+        <a href="{{ (site.GetPage "section" "user-guides").RelPermalink }}">User Guides</a>
+        <a href="{{ (site.GetPage "section" "api-guides").RelPermalink }}">API Guides</a>
+        <a href="{{ (site.GetPage "section" "how-to-articles").RelPermalink }}">How to Articles</a>
+        <a href="{{ (site.GetPage "section" "technical-reference-guides").RelPermalink }}">Technical Reference Guides</a>
+      </nav>
     </header>
 
     <main>
