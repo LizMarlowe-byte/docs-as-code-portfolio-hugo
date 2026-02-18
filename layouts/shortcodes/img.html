@@ -1,0 +1,5 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+{{ (printf "assets/img/%s" $src) | relURL }}" alt="{{ $alt | htmlEscape }}"
+  {{- if $title }} title="{{ $title | htmlEscape }}"{{ end }} loading="lazy">
