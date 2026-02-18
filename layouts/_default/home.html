@@ -4,10 +4,13 @@
     <h1>Documentation</h1>
     <p class="muted">Explore the guide categories below.</p>
 
-    <div class="cards" style="margin-top:1.25rem">
-      {{ $ug := site.GetPage "section" "user-gu ides" }}{{ $ag := site.GetPage "section" "api-guides" }}
-      {{ $ht := site.GetPage "section" "how-to-articles" }}{{ $rg := site.GetPage "section" "technical-reference-guides" }}
+    {{/* Get section pages once */}}
+    {{ $ug := site.GetPage "section" "user-guides" }}
+    {{ $ag := site.GetPage "section" "api-guides" }}
+    {{ $ht := site.GetPage "section" "how-to-articles" }}
+    {{ $rg := site.GetPage "section" "technical-reference-guides" }}
 
+    <div class="cards" style="margin-top:1.25rem">
       <a class="card" href="{{ $ug.RelPermalink }}">
         <h2>User Guides</h2>
         <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p>
@@ -30,7 +33,7 @@
     </div>
   </section>
 
-  <!-- ABOUT: render content/_index.md below the hero -->
+  <!-- ABOUT: render the content of content/_index.md below the hero -->
   <section style="max-width:1080px;margin:2rem auto 0;">
     {{ .Content }}
   </section>
