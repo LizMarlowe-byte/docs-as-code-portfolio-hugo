@@ -1,10 +1,23 @@
 baseURL = "https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/"
 title = "Docs Site Using Hugo"
 languageCode = "en-us"
-# (No theme yet; we can add one later)
+enableRobotsTXT = true
 
+# Permalinks MUST use the exact section folder names under `content/`
 [permalinks]
-  user-guides = "/user-guides/:slug/"
-  api-guides  = "/api-guides/:slug/"
-  how-to      = "/how-to-articles/:slug/"
-  reference   = "/technical-reference-guides/:slug/"
+  user-guides                 = "/user-guides/:slug/"
+  api-guides                  = "/api-guides/:slug/"
+  how-to-articles             = "/how-to-articles/:slug/"
+  technical-reference-guides  = "/technical-reference-guides/:slug/"
+
+# (Optional) control which formats each kind emits
+[outputs]
+  home    = ["HTML","RSS"]   # keep RSS if you want; change to ["HTML"] to hide the feed
+  section = ["HTML"]
+  page    = ["HTML"]
+
+# Allow raw HTML in Markdown so your <img ...> tags render
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
