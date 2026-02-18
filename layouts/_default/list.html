@@ -5,24 +5,29 @@
     {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
 
     <section class="cards">
-      {{ 
+      {{ $ug := site.GetPage "section" "user-guides" }}
+      {{ $ag := site.GetPage "section" "api-guides" }}
+      {{ $ht := site.GetPage "section" "how-to-articles" }}
+      {{ $rg := site.GetPage "section" "technical-reference-guides" }}
+
+      <a class="card" href="{{ $ug.RelPermalink }}">
         <h2>User Guides</h2>
-        <p class="muted">{{ with site.GetPage "section" "user-guides" }}{{ .Params.summary }}{{ end }}</p>
+        <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ 
+      <a class="card" href="{{ $ag.RelPermalink }}">
         <h2>API Guides</h2>
-        <p class="muted">{{ with site.GetPage "section" "api-guides" }}{{ .Params.summary }}{{ end }}</p>
+        <p class="muted">{{ with $ag }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ 
+      <a class="card" href="{{ $ht.RelPermalink }}">
         <h2>How to Articles</h2>
-        <p class="muted">{{ with site.GetPage "section" "how-to-articles" }}{{ .Params.summary }}{{ end }}</p>
+        <p class="muted">{{ with $ht }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ 
+      <a class="card" href="{{ $rg.RelPermalink }}">
         <h2>Technical Reference Guides</h2>
-        <p class="muted">{{ with site.GetPage "section" "technical-reference-guides" }}{{ .Params.summary }}{{ end }}</p>
+        <p class="muted">{{ with $rg }}{{ .Params.summary }}{{ end }}</p>
       </a>
     </section>
 
@@ -32,7 +37,7 @@
 
     <ul>
       {{ range .Pages.ByTitle }}
-        <li>{{ .RelPermalink }}{{ .Title }}</a></li>
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
       {{ else }}
         <p class="muted">No pages found in this section.</p>
       {{ end }}
