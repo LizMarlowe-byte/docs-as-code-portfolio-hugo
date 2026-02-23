@@ -10,10 +10,11 @@ _Spotify_ is a leading digital audio streaming service that gives you access to 
 
 The _Spotify Web API_ is a RESTful API with different endpoints that return JSON metadata about music artists, albums, and tracks, directly from the Spotify Data Catalog. It allows developers to build applications that interact with Spotify's music data and features, allowing them to retrieve music information, manage playlists, control playback, and access user data through standard web requests (RESTful). It provides access to Spotify's catalog (including artists, albums, and tracks), and user features, using authorization flows like Client Credentials for app data and Authorization Code for user-specific actions.
 
-??? note "Topics"
-	* [Common use cases](#common-use-cases)
-    * [Technical details](#technical-details)
-    * [Target audience](#target-audience)
+{{< topics title="Topics" >}}
+* [Common use cases](#common-use-cases)
+* [Technical details](#technical-details)
+* [Target audience](#target-audience)
+{{< /topics >}}
 
 ### Common use cases
 
@@ -332,10 +333,11 @@ From the Spotify Developer Dashboard, set up your account. Then, create your fir
 
 Every access token is valid for 1 hour. Include the `Authorization` header in your API requests using: `Bearer <access_token>`.
 
-??? note "Topics"
-	* [Set up your account](#set-up-your-account)
-	* [Create an app](#create-an-app)
-	* [Request an access token](#request-an-access-token)
+{{< topics title="Topics" >}}
+* [Set up your account](#set-up-your-account)
+* [Create an app](#create-an-app)
+* [Request an access token](#request-an-access-token)
+{{< /topics >}}
 
 ### Set up your account
 
