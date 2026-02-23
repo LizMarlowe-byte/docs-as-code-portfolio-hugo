@@ -25,7 +25,7 @@ Using a rich text editor with built-in support for multiple diagramming tools, y
 ---
 
 
-{{< figure src="assets/img/DocMost36a.png" alt="Docmost Home Page" title="Docmost Home Page" >}}
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost36a.png" alt="Docmost Home Page" title="Docmost Home Page" >}}
 
 
 ---
@@ -41,7 +41,7 @@ Within a space, you can create and manage individual documents, or **_pages_**, 
 
 ---
 
-{{< figure src="assets/img/DocMost8.png" alt="Workspaces, spaces, and pages" title="Workspaces, spaces, and pages" >}}
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost8.png" alt="Workspaces, spaces, and pages" title="Workspaces, spaces, and pages" >}}
 
 ---
 
