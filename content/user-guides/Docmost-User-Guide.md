@@ -79,10 +79,10 @@ This guide is intended for users who want to create and share content in a wiki 
 
 Set up your account for the cloud-hosted version of Docmost. Then, set up your profile and preferences.
 
-??? note "Topics"
-	* [Set up your account](#set-up-your-account)
-	* [Set your profile settings and preferences](#set-your-profile-settings-and-preferences)
-	
+{{< topics title="Topics" >}}
+* [Set up your account](#set-up-your-account)
+* [Set your profile settings and preferences](#set-your-profile-settings-and-preferences)
+{{< /topics >}}
 	
 ### Set up your account
 
@@ -172,12 +172,13 @@ After setting up your Docmost account, define your profile settings and preferen
 
 Create and customize your _**workspace**_, which is the top-level entity for organizing your content, user roles, and permissions.  After creating your workspace, invite others to collaborate within it.
 
-??? note "Topics"
-	* [Define workspace settings](#define-workspace-settings)
-	* [Invite members to a workspace](#invite-members-to-a-workspace)
-	* [Resend invitation to a member](#resend-invitation-to-a-member)
-	* [Revoke invitation to a member](#revoke-invitation-to-a-member)
-	* [Delete a member from a workspace](#delete-a-member-from-a-workspace)
+{{< topics title="Topics" >}}
+* [Define workspace settings](#define-workspace-settings)
+* [Invite members to a workspace](#invite-members-to-a-workspace)
+* [Resend invitation to a member](#resend-invitation-to-a-member)
+* [Revoke invitation to a member](#revoke-invitation-to-a-member)
+* [Delete a member from a workspace](#delete-a-member-from-a-workspace)
+{{< /topics >}}
 
 ### Define workspace settings
 
@@ -373,14 +374,15 @@ You can delete a member from a workspace.
 
 Create **_spaces_**, which are dedicated, organized areas within your workspace that group together documents, permissions, and collaborators by project, team, or purpose. You can add members to spaces and manage their permissions. You can also export spaces for backup, migration, or offline use.
 
-??? note "Topics"
-	* [Create a space](#create-a-space)
-	* [Edit space settings](#edit-space-settings)
-	* [Add members to a space](#add-members-to-a-space)
-	* [Remove a member from a space](#remove-a-member-from-a-space)
-	* [Export a space](#export-a-space)
-	* [Delete a space](#delete-a-space)
-
+{{< topics title="Topics" >}}
+* [Create a space](#create-a-space)
+* [Edit space settings](#edit-space-settings)
+* [Add members to a space](#add-members-to-a-space)
+* [Remove a member from a space](#remove-a-member-from-a-space)
+* [Export a space](#export-a-space)
+* [Delete a space](#delete-a-space)
+{{< /topics >}}
+	
 ### Create a space
 
 Within your workspace, create a new space to group together documents, permissions, and collaborators by project, team, or purpose.
@@ -627,13 +629,14 @@ All users are assigned to a default group called **Everyone**.
 !!! note
     Only users with **Admin** or **Owner** roles can create, edit, and delete groups.
 
-??? note "Topics"
-	* [Create a group](#create-a-group)
-	* [Edit group settings](#edit-group-settings)
-	* [Grant group access to a space](#grant-group-access-to-a-space)
-	* [Add a member to a group](#add-a-member-to-a-group)
-	* [Remove a member from a group](#remove-a-member-from-a-group)
-	* [Delete a group](#delete-a-group)
+{{< topics title="Topics" >}}
+* [Create a group](#create-a-group)
+* [Edit group settings](#edit-group-settings)
+* [Grant group access to a space](#grant-group-access-to-a-space)
+* [Add a member to a group](#add-a-member-to-a-group)
+* [Remove a member from a group](#remove-a-member-from-a-group)
+* [Delete a group](#delete-a-group)
+{{< /topics >}}
 
 ### Create a group
 
@@ -824,13 +827,14 @@ If needed, you can delete a group.
 
 Within a space, create and manage individual documents, or **_pages_**, which contain the content itself. Each page contains specific content for the space, such as a department's budget, project roadmap, or annual goals.
 
-??? note "Topics"
-	* [Create a page](#create-a-page)
-	* [Move a page to a different space](#move-a-page-to-a-different-space)
-	* [Copy a page to a different space](#copy-a-page-to-a-different-space)
-	* [Duplicate a page to the same space](#duplicate-a-page-to-the-same-space)
-	* [Import a page](#import-a-page)
-	* [Export a page](#export-a-page)
+{{< topics title="Topics" >}}
+* [Create a page](#create-a-page)
+* [Move a page to a different space](#move-a-page-to-a-different-space)
+* [Copy a page to a different space](#copy-a-page-to-a-different-space)
+* [Duplicate a page to the same space](#duplicate-a-page-to-the-same-space)
+* [Import a page](#import-a-page)
+* [Export a page](#export-a-page)
+{{< /topics >}}
 
 ### Create a page
 
