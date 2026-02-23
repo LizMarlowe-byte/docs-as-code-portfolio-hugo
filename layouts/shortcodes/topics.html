@@ -1,6 +1,6 @@
 <div class="topics-box">
-  <div class="topics-title">{{ .Get "title" }}</div>
-  <div class="topics-list">
+  <div class="topics-heading">{{ .Get "title" }}</div>
+  <div class="topics-content">
     {{ .Inner | markdownify }}
   </div>
 </div>
