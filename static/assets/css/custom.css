@@ -1,0 +1,19 @@
+.topics-box {
+  border: 1px solid #dfe7f5;
+  background: #eef6ff;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.topics-title {
+  font-weight: 600;
+  margin-bottom: .5rem;
+  font-size: 1.1rem;
+  color: #003366;
+}
+
+.topics-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
