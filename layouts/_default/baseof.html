@@ -50,6 +50,43 @@
       .admonition.warning{border-left-color:#f59e0b}
 
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
+
+      /* ===== Topics (Docs-style callout box) ===== */
+    .topics-box{
+      border:1px solid #d7e3f7;
+      background:#eef6ff;
+      padding:1rem 1.25rem;
+      border-radius:8px;
+      margin:1.25rem 0 1.75rem;
+      box-shadow:0 1px 2px rgba(0,0,0,.06);
+    }
+    .topics-heading{
+      font-weight:700;
+      font-size:1.05rem;
+      margin:0 0 .5rem 0;
+      color:#003366;
+      display:flex;
+      align-items:center;
+      gap:.5rem;
+    }
+    /* Optional: a subtle “info” icon dot */
+    .topics-heading::before{
+      content:"";
+      width:.55rem;height:.55rem;border-radius:50%;
+      background:#60a5fa; /* blue-400 */
+      box-shadow:0 0 0 3px #dbeafe; /* blue-100 halo */
+      display:inline-block;
+    }
+    .topics-content ul{
+      margin:0;
+      padding-left:1.25rem;
+    }
+    .topics-content li{ margin:.25rem 0; }
+    .topics-content a{
+      color:#2563eb; /* blue-600 */
+      text-decoration:none;
+    }
+    .topics-content a:hover{ text-decoration:underline; }
     </style>
   </head>
   <body>
