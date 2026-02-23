@@ -90,6 +90,7 @@ Set up your account for Docmost, which provides you with web-based, thin client 
 
 {{< note >}}
     To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
+{{< note >}}
 
 **Procedure**
 
@@ -235,7 +236,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-    !!! tip
+    {{< tip >}}
         Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
 
 2. On the **Members** page, select **Invite members**.
