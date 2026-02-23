@@ -23,9 +23,12 @@ enableRobotsTXT = true
       unsafe = true
       
 [module]
+  # Keep the native assets/ (if you have one)
   [[module.mounts]]
     source = "assets"
     target = "assets"
+
+  # Mount *static/assets* into the assets namespace
   [[module.mounts]]
-    source = "static"
+    source = "static/assets"
     target = "assets"
