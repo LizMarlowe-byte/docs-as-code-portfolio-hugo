@@ -8,10 +8,11 @@ draft: false
 
 The _OpenWeatherMap_ API is a weather data service that provides access to comprehensive data sourced from global and local models, satellites, radars, and weather stations. Developers can use the API to retrieve current weather conditions, hourly and daily forecasts, historical data, and bulk weather information for multiple locations worldwide.
 
-??? note "Topics"
-	* [Common use cases](#common-use-cases)
-    * [Technical details](#technical-details)
-    * [Target audience](#target-audience)
+{{< topics title="Topics" >}}
+* [Common use cases](#common-use-cases)
+* [Technical details](#technical-details)
+* [Target audience](#target-audience)
+{{< /topics >}}
 
 ### Common use cases
 
@@ -147,9 +148,10 @@ GET https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=51.5085&lon=-0.1
 
 Create an account, which generates your API key. You can create additional API keys on your account page, and edit, delete, or deactivate your keys.
 
-??? note "Topics"
-	* [Create an account](#create-an-account)
-	* [Create more API keys](#create-more-api-keys)
+{{< topics title="Topics" >}}
+* [Create an account](#create-an-account)
+* [Create more API keys](#create-more-api-keys)
+{{< /topics >}}
 
 ### Create an account
 
