@@ -1,0 +1,15 @@
+{{/*
+    This shortcode targets blocks beginning with "!!! note", "!!! tip", 
+    "!!! warning", or "!!! info".
+    It automatically wraps the content in a styled admonition box.
+*/}}
+
+{{ $type := .Get 0 | lower }}
+{{ $classes := printf "admonition %s" $type }}
+
+<div class="{{ $classes }}">
+  <div class="admonition-title">{{ title $type }}</div>
+  <div class="admonition-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
