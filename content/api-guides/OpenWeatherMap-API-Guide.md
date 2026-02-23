@@ -88,7 +88,7 @@ Each tier offers specific rate limits and monthly quotas for API calls:
 |Expert         |100,000 calls/minute    |3 billion calls  |
 |Enterprise     |200,000 calls/minute    |5 billion calls  |
 
-!!! note
+{{< note >}}
     These values are intentionally normalized for portfolio demonstration and do _not_ reflect current OpenWeatherMap pricing tiers.
 
 
@@ -1587,3 +1587,4 @@ https://bulk.openweathermap.org/archive/weather_zip_uk_011020_2000.csv.gz?appid=
 
 3. To download updated weather data, repeat steps #1-2 at the times indicated in the column, **Available data per day, UTC time**, in the table on the page, [7-day archive of current and forecast weather bulks files](https://openweathermap.org/bulk#bulk_archive). Weather data is updated in these files on a regular basis.
 
+{{< /note >}}

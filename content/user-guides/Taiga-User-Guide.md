@@ -60,7 +60,7 @@ There are two main types of deployment options:
 
 ---
 
-!!! note
+{{< note >}}
     For updated pricing information for all deployment options, see [Taiga's website](https://taiga.io/ "Taiga's website").
 
 
@@ -1052,3 +1052,4 @@ In Taiga, the team board can be utilized for any project type to display team me
     |Contact List |Names of the team member's contacts.
 
 
+{{< /note >}}

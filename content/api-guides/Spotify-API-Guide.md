@@ -322,7 +322,7 @@ curl "https://api.spotify.com/v1/me/playlists?offset=20&limit=20" \
 
 ```
 
-!!! note
+{{< note >}}
     If the response is null, you have reached the last page.
 
 ---
@@ -1818,3 +1818,4 @@ For example:
 }
 
 ```
+{{< /note >}}

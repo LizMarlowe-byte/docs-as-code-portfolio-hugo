@@ -88,7 +88,7 @@ Set up your account for the cloud-hosted version of Docmost. Then, set up your p
 
 Set up your account for Docmost, which provides you with web-based, thin client access through your browser. 
 
-!!! note
+{{< note >}}
     To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
 
 **Procedure**
@@ -1050,3 +1050,4 @@ You can export a page in either Markdown or HTML format for external use. You ca
 
 
 
+{{< /note >}}
