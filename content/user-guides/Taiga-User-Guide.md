@@ -24,7 +24,7 @@ As Taiga offers robust customization options, you can easily configure and custo
 
 ---
 
-<img src="{{ "assets/img/Taiga_overview.png" | relURL }}" alt="Taiga overview" title="Taiga overview" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_overview.png" alt="Taiga overview" title="Taiga overview" >}}
 
 --- 
 
@@ -41,7 +41,7 @@ There are two main types of deployment options:
 
 ---
 
-<img src="{{ "assets/img/Taiga_Cloud.png" | relURL }}" alt="Taiga Cloud deployments" title="Taiga Cloud deployments" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_Cloud.png" alt="Taiga Cloud deployments" title="Taiga Cloud deployments" >}}
 
 ---
 
@@ -55,7 +55,7 @@ There are two main types of deployment options:
 
 ---
 
-<img src="{{ "assets/img/Taiga_Self_hosted.png" | relURL }}" alt="Taiga Self-hosted deployments" title="Taiga Self-hosted deployments" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_Self_hosted.png" alt="Taiga Self-hosted deployments" title="Taiga Self-hosted deployments" >}}
 
 ---
 
@@ -103,7 +103,7 @@ Create your account using the Taiga Cloud Basic deployment option.
 
     ---
 
-    <img src="{{ "assets/img/Taiga1.png" | relURL }}" alt="Create your Taiga account" title="Create your Taiga account" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga1.png" alt="Create your Taiga account" title="Create your Taiga account" >}}
 
     ---
 
@@ -135,7 +135,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
     ---
 
-    <img src="{{ "assets/img/Taiga2.png" | relURL }}" alt="Select new project" title="Select new project" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga2.png" alt="Select new project" title="Select new project" >}}
 
     ---
 
@@ -147,7 +147,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
      ---
 
 
-     <img src="{{ "assets/img/Taiga3.png" | relURL }}" alt="Create project" title="Create project" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga3.png" alt="Create project" title="Create project" >}}
 
 
      ---
@@ -171,7 +171,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
     ---
 
-    <img src="{{ "assets/img/Taiga4.png" | relURL }}" alt="Enter project details" title="Enter project details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
 
     ---
 
@@ -188,7 +188,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
      ---
 
-     <img src="{{ "assets/img/Taiga5.png" | relURL }}" alt="New project created" title="New project created" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga5.png" alt="New project created" title="New project created" >}}
 
      ---
 
@@ -232,7 +232,7 @@ Update existing project settings (such as name, description, logo, owner, and pu
 
     ---
 
-    <img src="{{ "assets/img/Taiga_settings_1.png" | relURL }}" alt="Update project details" title="Update project details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_settings_1.png" alt="Update project details" title="Update project details" >}}
 
     ---
 
@@ -275,7 +275,7 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    <img src="{{ "assets/img/Taiga6.png" | relURL }}" alt="Select + New Member" title="Select + New Member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga6.png" alt="Select + New Member" title="Select + New Member" >}}
 
     ---
 
@@ -285,7 +285,7 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    <img src="{{ "assets/img/Taiga9.png" | relURL }}" alt="Enter role for new member" title="Enter role for new member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga9.png" alt="Enter role for new member" title="Enter role for new member" >}}
 
     ---
 
@@ -293,7 +293,7 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    <img src="{{ "assets/img/Taiga10.png" | relURL }}" alt="Invite new member" title="Invite new member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga10.png" alt="Invite new member" title="Invite new member" >}}
 
     ---
 
@@ -303,7 +303,7 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    <img src="{{ "assets/img/Taiga11.png" | relURL }}" alt="Pending member" title="Pending member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga11.png" alt="Pending member" title="Pending member" >}}
 
     ---
 
@@ -313,7 +313,7 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    <img src="{{ "assets/img/Taiga_manage_members.png" | relURL }}" alt="Active members" title="Active members" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_manage_members.png" alt="Active members" title="Active members" >}}
 
     ---
 
@@ -338,7 +338,7 @@ Role permissions help control who can create, edit, or delete Agile entities, su
 
     ---
 
-    <img src="{{ "assets/img/Taiga_permissions1.png" | relURL }}" alt="Select role to update permissions" title="Select role to update permissions" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_permissions1.png" alt="Select role to update permissions" title="Select role to update permissions" >}}
 
     ---
 
@@ -346,7 +346,7 @@ Role permissions help control who can create, edit, or delete Agile entities, su
 
     ---
 
-    <img src="{{ "assets/img/Taiga_permissions2.png" | relURL }}" alt="Update permissions for role" title="Update permissions for role" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_permissions2.png" alt="Update permissions for role" title="Update permissions for role" >}}
 
     ---
 
@@ -375,7 +375,7 @@ When creating a new Agile entity in Taiga (such as an epic, user story, or task)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_custom_fields1.png" | relURL }}" alt="Select custom fields" title="Select custom fields" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_custom_fields1.png" alt="Select custom fields" title="Select custom fields" >}}
 
     ---
 
@@ -383,7 +383,7 @@ When creating a new Agile entity in Taiga (such as an epic, user story, or task)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_custom_fields3.png" | relURL }}" alt="Add custom field" title="Add custom field" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_custom_fields3.png" alt="Add custom field" title="Add custom field" >}}
 
     ---
 
@@ -403,7 +403,7 @@ When creating a new Agile entity in Taiga (such as an epic, user story, or task)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_custom_fields4.png" | relURL }}" alt="Edit or delete custom field" title="Edit or delete custom field" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_custom_fields4.png" alt="Edit or delete custom field" title="Edit or delete custom field" >}}
 
     ---
 
@@ -423,7 +423,7 @@ For example, you might want to add an issue type that is related to work that is
 
     ---
 
-    <img src="{{ "assets/img/Taiga_issue_types1.png" | relURL }}" alt="Select types" title="Select types" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_issue_types1.png" alt="Select types" title="Select types" >}}
 
     ---
 
@@ -439,7 +439,7 @@ For example, you might want to add an issue type that is related to work that is
 
     ---
 
-    <img src="{{ "assets/img/Taiga_issue_types2.png" | relURL }}" alt="Save issue type" title="Save issue type" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_issue_types2.png" alt="Save issue type" title="Save issue type" >}}
 
     ---
 
@@ -453,7 +453,7 @@ In Scrum, work typically moves through two main phases:
 
 ---
 
-<img src="{{ "assets/img/Taiga_scrum_project_workflow_new.png" | relURL }}" alt="Scrum project workflow" title="Scrum project workflow" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_scrum_project_workflow_new.png" alt="Scrum project workflow" title="Scrum project workflow" >}}
 
 ---
 
@@ -500,7 +500,7 @@ Review the [Scrum project workflow](#scrum-project-workflow)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_epic1.png" | relURL }}" alt="Enter epic details" title="Enter epic details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_epic1.png" alt="Enter epic details" title="Enter epic details" >}}
 
     ---
 
@@ -518,7 +518,7 @@ Review the [Scrum project workflow](#scrum-project-workflow)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_epic2.png" | relURL }}" alt="New epic created" title="New epic created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_epic2.png" alt="New epic created" title="New epic created" >}}
 
     ---
 
@@ -557,7 +557,7 @@ Create a _user story_ that defines specific development needed to accomplish the
 
     ---
 
-    <img src="{{ "assets/img/Taiga_userstory1.png" | relURL }}" alt="Select related user stories from epic" title="Select related user stories from epic" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_userstory1.png" alt="Select related user stories from epic" title="Select related user stories from epic" >}}
 
     ---
 
@@ -565,7 +565,7 @@ Create a _user story_ that defines specific development needed to accomplish the
 
     ---
 
-    <img src="{{ "assets/img/Taiga_userstory2.png" | relURL }}" alt="Enter new story details" title="Enter new story details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_userstory2.png" alt="Enter new story details" title="Enter new story details" >}}
 
     ---
 
@@ -581,7 +581,7 @@ Create a _user story_ that defines specific development needed to accomplish the
 
     ---
 
-    <img src="{{ "assets/img/Taiga_userstory3.png" | relURL }}" alt="New story created" title="New story created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_userstory3.png" alt="New story created" title="New story created" >}}
 
     ---
 
@@ -589,7 +589,7 @@ Create a _user story_ that defines specific development needed to accomplish the
 
     ---
 
-    <img src="{{ "assets/img/Taiga_storydetails_updated.png" | relURL }}" alt="Add story details" title="Add story details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_storydetails_updated.png" alt="Add story details" title="Add story details" >}}
 
     ---
 
@@ -625,7 +625,7 @@ Within each user story, create a _task_, which breaks up story work into smaller
 
     ---
 
-    <img src="{{ "assets/img/Taiga_task1.png" | relURL }}" alt="Select to create a new task" title="Select to create a new task" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_task1.png" alt="Select to create a new task" title="Select to create a new task" >}}
 
     ---
 
@@ -639,7 +639,7 @@ Within each user story, create a _task_, which breaks up story work into smaller
 
      ---
 
-     <img src="{{ "assets/img/Taiga_task2.png" | relURL }}" alt="Select assigned user" title="Select assigned user" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_task2.png" alt="Select assigned user" title="Select assigned user" >}}
 
      ---
 
@@ -647,7 +647,7 @@ Within each user story, create a _task_, which breaks up story work into smaller
 
     ---
 
-    <img src="{{ "assets/img/Taiga_task4.png" | relURL }}" alt="Save new task" title="Save new task" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_task4.png" alt="Save new task" title="Save new task" >}}
 
     ---
 
@@ -655,7 +655,7 @@ Within each user story, create a _task_, which breaks up story work into smaller
 
     ---
 
-    <img src="{{ "assets/img/Taiga_task3.png" | relURL }}" alt="New task created" title="New task created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_task3.png" alt="New task created" title="New task created" >}}
 
     ---
 
@@ -663,7 +663,7 @@ Within each user story, create a _task_, which breaks up story work into smaller
 
     ---
 
-    <img src="{{ "assets/img/Taiga_userstory4.png" | relURL }}" alt="Additional tasks created" title="Additional tasks created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_userstory4.png" alt="Additional tasks created" title="Additional tasks created" >}}
 
     ---   
 
@@ -698,7 +698,7 @@ Complete all steps in [Scrum backlog management](#scrum-backlog-management)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_sprints1.png" | relURL }}" alt="User stories in the backlog" title="User stories in the backlog" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_sprints1.png" alt="User stories in the backlog" title="User stories in the backlog" >}}
 
     ---  
 
@@ -708,7 +708,7 @@ Complete all steps in [Scrum backlog management](#scrum-backlog-management)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_sprints2.png" | relURL }}" alt="Create new sprint" title="Create new sprint" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_sprints2.png" alt="Create new sprint" title="Create new sprint" >}}
 
     ---  
 
@@ -718,7 +718,7 @@ Complete all steps in [Scrum backlog management](#scrum-backlog-management)
 
     ---
 
-    <img src="{{ "assets/img/Taiga_sprints3.png" | relURL }}" alt="New sprint created" title="New sprint created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_sprints3.png" alt="New sprint created" title="New sprint created" >}}
 
     --- 
 
@@ -746,7 +746,7 @@ From the backlog, according to deployment priorities, related work, and developm
 
     ---
 
-    <img src="{{ "assets/img/Taiga_assign_user_stories_to_sprints1.png" | relURL }}" alt="Move stories to sprint" title="Move stories to sprint" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_assign_user_stories_to_sprints1.png" alt="Move stories to sprint" title="Move stories to sprint" >}}
 
     --- 
 
@@ -754,7 +754,7 @@ From the backlog, according to deployment priorities, related work, and developm
 
     ---
 
-    <img src="{{ "assets/img/Taiga_assign_user_stories_to_sprints2.png" | relURL }}" alt="Stories assigned to sprint" title="Stories assigned to sprint" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_assign_user_stories_to_sprints2.png" alt="Stories assigned to sprint" title="Stories assigned to sprint" >}}
 
     --- 
 
@@ -784,7 +784,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress1.png" | relURL }}" alt="Select sprint taskboard" title="Select sprint taskboard" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress1.png" alt="Select sprint taskboard" title="Select sprint taskboard" >}}
 
     --- 
 
@@ -795,7 +795,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress2.png" | relURL }}" alt="View sprint taskboard" title="View sprint taskboard" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress2.png" alt="View sprint taskboard" title="View sprint taskboard" >}}
 
     --- 
 
@@ -815,7 +815,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress3.png" | relURL }}" alt="Show burn-down chart" title="Show burn-down chart" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress3.png" alt="Show burn-down chart" title="Show burn-down chart" >}}
 
     --- 
 
@@ -823,7 +823,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress4.png" | relURL }}" alt="Add more story tasks" title="Add more story tasks" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress4.png" alt="Add more story tasks" title="Add more story tasks" >}}
 
     --- 
 
@@ -839,7 +839,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress6.png" | relURL }}" alt="Manage issues" title="Manage issues" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress6.png" alt="Manage issues" title="Manage issues" >}}
 
     --- 
 
@@ -847,7 +847,7 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     ---
 
-    <img src="{{ "assets/img/Taiga_trackprogress7.png" | relURL }}" alt="Closed issues" title="Closed issues" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_trackprogress7.png" alt="Closed issues" title="Closed issues" >}}
 
     --- 
 
@@ -878,7 +878,7 @@ Kanban is a high-level workflow-based Agile software development methodology for
 
     ---
 
-    <img src="{{ "assets/img/Taiga_kanban1.png" | relURL }}" alt="Create new user story" title="Create new user story" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_kanban1.png" alt="Create new user story" title="Create new user story" >}}
 
     --- 
 
@@ -896,7 +896,7 @@ Kanban is a high-level workflow-based Agile software development methodology for
 
     ---
 
-    <img src="{{ "assets/img/Taiga_kanban3.png" | relURL }}" alt="New user story created in status swim lane" title="New user story created in status swim lane" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_kanban3.png" alt="New user story created in status swim lane" title="New user story created in status swim lane" >}}
 
     --- 
 
@@ -914,7 +914,7 @@ Kanban is a high-level workflow-based Agile software development methodology for
 
     ---
 
-    <img src="{{ "assets/img/Taiga_kanban2.png" | relURL }}" alt="Kanban board" title="Kanban board" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_kanban2.png" alt="Kanban board" title="Kanban board" >}}
 
     --- 
  
@@ -934,7 +934,7 @@ Every project encounters issues, which may include bugs, questions, dependencies
 
     ---
 
-    <img src="{{ "assets/img/Taiga_issue1.png" | relURL }}" alt="Create new issue" title="Create new issue" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_issue1.png" alt="Create new issue" title="Create new issue" >}}
 
     --- 
 
@@ -954,7 +954,7 @@ Every project encounters issues, which may include bugs, questions, dependencies
 
     ---
 
-    <img src="{{ "assets/img/Taiga_issue2.png" | relURL }}" alt="New issue" title="New issue" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_issue2.png" alt="New issue" title="New issue" >}}
 
     --- 
 
@@ -978,7 +978,7 @@ Every project encounters issues, which may include bugs, questions, dependencies
 
     ---
 
-    <img src="{{ "assets/img/Taiga_issue3.png" | relURL }}" alt="Filter issues" title="Filter issues" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_issue3.png" alt="Filter issues" title="Filter issues" >}}
 
     --- 
 
@@ -999,7 +999,7 @@ In Taiga, the team board can be utilized for any project type to display team me
 
     ---
 
-    <img src="{{ "assets/img/Taiga_team1.png" | relURL }}" alt="Team board" title="Team board" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_team1.png" alt="Team board" title="Team board" >}}
 
     --- 
 
@@ -1022,7 +1022,7 @@ In Taiga, the team board can be utilized for any project type to display team me
 
     ---
 
-    <img src="{{ "assets/img/Taiga_team2.png" | relURL }}" alt="Filter team members by role" title="Filter team members by role" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_team2.png" alt="Filter team members by role" title="Filter team members by role" >}}
 
     --- 
 
@@ -1032,7 +1032,7 @@ In Taiga, the team board can be utilized for any project type to display team me
 
     ---
 
-    <img src="{{ "assets/img/Taiga_team3.png" | relURL }}" alt="View team member details" title="View team member details" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga_team3.png" alt="View team member details" title="View team member details" >}}
 
     --- 
 

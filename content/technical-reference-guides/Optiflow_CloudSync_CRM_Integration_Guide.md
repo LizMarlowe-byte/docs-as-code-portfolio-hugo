@@ -68,7 +68,7 @@ The following diagram illustrates this data flow, and the accompanying table des
 
 ---
 
-<img src="{{ "assets/img/Optiflow_CloudSync_Integration_flow.png" | relURL }}" alt="Optiflow–CloudSync integration data flow" title="Optiflow–CloudSync integration data flow" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Optiflow_CloudSync_Integration_flow.png" alt="Optiflow–CloudSync integration data flow" title="Optiflow–CloudSync integration data flow" >}}
 
 ---
 

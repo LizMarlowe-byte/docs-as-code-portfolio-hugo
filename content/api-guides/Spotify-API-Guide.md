@@ -66,7 +66,7 @@ Spotify implements the [OAuth2](https://datatracker.ietf.org/doc/html/rfc6749) s
 
 ---
 
-<img src="{{ "assets/img/Spotify_OAuth_flow_new.png" | relURL }}" alt="Spotify OAuth flow" title="Spotify OAuth flow" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_OAuth_flow_new.png" alt="Spotify OAuth flow" title="Spotify OAuth flow" >}}
 
 ---
 
@@ -157,7 +157,7 @@ Complete the [getting started](#getting-started) tasks:
 
     ---
 
-    <img src="{{ "assets/img/Spotify_7.png" | relURL }}" alt="Add user to authenticate with your app" title="Add user to authenticate with your app" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_7.png" alt="Add user to authenticate with your app" title="Add user to authenticate with your app" >}}
 
     ---
 
@@ -165,7 +165,7 @@ Complete the [getting started](#getting-started) tasks:
 
     ---
 
-    <img src="{{ "assets/img/Spotify_8.png" | relURL }}" alt="Authenticated user added" title="Authenticated user added" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_8.png" alt="Authenticated user added" title="Authenticated user added" >}}
 
     ---
 
@@ -205,7 +205,7 @@ To apply for this mode, your business or organization first needs to be an appro
 
     ---
 
-    <img src="{{ "assets/img/Spotify_9.png" | relURL }}" alt="Quota Extension Request Form" title="Quota Extension Request Form" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_9.png" alt="Quota Extension Request Form" title="Quota Extension Request Form" >}}
 
     ---
 
@@ -363,7 +363,7 @@ Set up your Spotify Web API account on the Spotify Developer Dashboard.
 
 ---
 
-<img src="{{ "assets/img/Spotify_1.png" | relURL }}" alt="New account on the Spotify Dashboard page" title="New account on the Spotify Dashboard page" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_1.png" alt="New account on the Spotify Dashboard page" title="New account on the Spotify Dashboard page" >}}
 
 ---
 
@@ -385,7 +385,7 @@ An app provides the _client ID_ and _client secret_ you need to request an acces
 
     ---
 
-    <img src="{{ "assets/img/Spotify_2.png" | relURL }}" alt="Create New App - Add Redirect URIs" title="Create New App - Add Redirect URIs" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_2.png" alt="Create New App - Add Redirect URIs" title="Create New App - Add Redirect URIs" >}}
 
     ---
 
@@ -402,7 +402,7 @@ An app provides the _client ID_ and _client secret_ you need to request an acces
 
     ---
 
-    <img src="{{ "assets/img/Spotify_3.png" | relURL }}" alt="Save New App Settings" title="Save New App Settings" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_3.png" alt="Save New App Settings" title="Save New App Settings" >}}
 
     ---
 
@@ -412,7 +412,7 @@ An app provides the _client ID_ and _client secret_ you need to request an acces
     ---
 
 
-    <img src="{{ "assets/img/Spotify_4.png" | relURL }}" alt="New App Created" title="New App Created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_4.png" alt="New App Created" title="New App Created" >}}
 
 
     ---
@@ -446,7 +446,7 @@ You can now request an _access token_, which is a string that contains the crede
     ---
 
 
-    <img src="{{ "assets/img/Spotify_5.png" | relURL }}" alt="Select new app from dashboard" title="Select new app from dashboard" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_5.png" alt="Select new app from dashboard" title="Select new app from dashboard" >}}
 
 
     ---
@@ -460,7 +460,7 @@ You can now request an _access token_, which is a string that contains the crede
     ---
 
 
-    <img src="{{ "assets/img/Spotify_6.png" | relURL }}" alt="View client ID and client secret" title="View client ID and client secret" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Spotify_6.png" alt="View client ID and client secret" title="View client ID and client secret" >}}
 
 
     ---

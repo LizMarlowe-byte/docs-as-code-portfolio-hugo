@@ -57,7 +57,7 @@ Here's what you do:
 
 ---
 
-<img src="{{ "assets/img/DocMost10.png" | relURL }}" alt="Example: Workspaces, spaces, and pages" title="Example: Workspaces, spaces, and pages" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost10.png" alt="Example: Workspaces, spaces, and pages" title="Example: Workspaces, spaces, and pages" >}}
 
 ---
 
@@ -102,7 +102,7 @@ Set up your account for Docmost, which provides you with web-based, thin client 
 
 ---
 
-<img src="{{ "assets/img/DocMost2.png" | relURL }}" alt="Create workspace" title="Create workspace" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost2.png" alt="Create workspace" title="Create workspace" >}}
 
 ---
 
@@ -110,7 +110,7 @@ As soon as you create your workspace, the system displays the Docmost Home scree
 
 ---
 
-<img src="{{ "assets/img/DocMost1.png" | relURL }}" alt="Default space on Docmost home screen" title="Default space on Docmost home screen" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost1.png" alt="Default space on Docmost home screen" title="Default space on Docmost home screen" >}}
 
 ---
 
@@ -124,7 +124,7 @@ After setting up your Docmost account, define your profile settings and preferen
 
     ---
 
-    <img src="{{ "assets/img/DocMost4.png" | relURL }}" alt="Select My profile" title="Select My profile" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost4.png" alt="Select My profile" title="Select My profile" >}}
 
     ---
 
@@ -132,7 +132,7 @@ After setting up your Docmost account, define your profile settings and preferen
 
     ---
 
-    <img src="{{ "assets/img/DocMost5.png" | relURL }}" alt="Update My Profile page" title="Update My Profile page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost5.png" alt="Update My Profile page" title="Update My Profile page" >}}
 
     ---
 
@@ -147,7 +147,7 @@ After setting up your Docmost account, define your profile settings and preferen
 
     ---
 
-    <img src="{{ "assets/img/DocMost6.png" | relURL }}" alt="Select My preferences" title="Select My preferences" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost6.png" alt="Select My preferences" title="Select My preferences" >}}
 
     ---
 
@@ -155,7 +155,7 @@ After setting up your Docmost account, define your profile settings and preferen
 
     ---
 
-    <img src="{{ "assets/img/DocMost7.png" | relURL }}" alt="Update My Preferences" title="Update My Preferences" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost7.png" alt="Update My Preferences" title="Update My Preferences" >}}
 
     ---
 
@@ -188,7 +188,7 @@ Customize the default workspace according to your needs. You can change the icon
 
     ---
 
-    <img src="{{ "assets/img/DocMost11.png" | relURL }}" alt="Select Workspace settings" title="Select Workspace settings" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost11.png" alt="Select Workspace settings" title="Select Workspace settings" >}}
 
     ---
 
@@ -196,7 +196,7 @@ Customize the default workspace according to your needs. You can change the icon
 
      ---
 
-    <img src="{{ "assets/img/DocMost13.png" | relURL }}" alt="Update Workspace settings" title="Update Workspace settings" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost13.png" alt="Update Workspace settings" title="Update Workspace settings" >}}
 
      ---
 	<div markdown="1">
@@ -215,7 +215,7 @@ Customize the default workspace according to your needs. You can change the icon
 
      ---
 
-     <img src="{{ "assets/img/DocMost14.png" | relURL }}" alt="View updated workspace settings" title="View updated workspace settings" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost14.png" alt="View updated workspace settings" title="View updated workspace settings" >}}
 
      ---
 
@@ -229,7 +229,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-    <img src="{{ "assets/img/DocMost15.png" | relURL }}" alt="Select Manage members" title="Select Manage members" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost15.png" alt="Select Manage members" title="Select Manage members" >}}
 
     ---
 
@@ -242,7 +242,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-    <img src="{{ "assets/img/DocMost16.png" | relURL }}" alt="Invite new members" title="Invite new members" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost16.png" alt="Invite new members" title="Invite new members" >}}
 
     ---
 	
@@ -267,7 +267,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
      ---
 
-    <img src="{{ "assets/img/DocMost17.png" | relURL }}" alt="View all invited members who have not yet accepted the invitation" title="View all invited members who have not yet accepted the invitation" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost17.png" alt="View all invited members who have not yet accepted the invitation" title="View all invited members who have not yet accepted the invitation" >}}
 
      ---
 	
@@ -286,7 +286,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-    <img src="{{ "assets/img/DocMost19.png" | relURL }}" alt="View all invited members who accepted the invitation" title="View all invited members who accepted the invitation" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost19.png" alt="View all invited members who accepted the invitation" title="View all invited members who accepted the invitation" >}}
 
     ---
 	
@@ -315,7 +315,7 @@ After sending an invitation to a member, you can resend the invitation. This is 
 
 ---
 
-<img src="{{ "assets/img/DocMost25.png" | relURL }}" alt="Resend invitation" title="Resend invitation" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost25.png" alt="Resend invitation" title="Resend invitation" >}}
 
 ---
 
@@ -336,7 +336,7 @@ After sending an invitation to a member, you can revoke the invitation. This is 
 
     ---
 
-    <img src="{{ "assets/img/DocMost26.png" | relURL }}" alt="Revoke invitation" title="Revoke invitation" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost26.png" alt="Revoke invitation" title="Revoke invitation" >}}
 
     ---
 
@@ -359,7 +359,7 @@ You can delete a member from a workspace.
 
     ---
 
-    <img src="{{ "assets/img/DocMost27.png" | relURL }}" alt="Delete member" title="Delete member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost27.png" alt="Delete member" title="Delete member" >}}
 
     ---
 
@@ -396,7 +396,7 @@ Within your workspace, create a new space to group together documents, permissio
 
      ---
 
-     <img src="{{ "assets/img/DocMost20.png" | relURL }}" alt="Create a space" title="Create a space" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost20.png" alt="Create a space" title="Create a space" >}}
 
      ---
 	
@@ -416,7 +416,7 @@ Within your workspace, create a new space to group together documents, permissio
 
      ---
 
-     <img src="{{ "assets/img/DocMost21.png" | relURL }}" alt="Space created" title="Space created" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost21.png" alt="Space created" title="Space created" >}}
 
      ---
 
@@ -434,7 +434,7 @@ After creating a space, you can edit a space's settings.
 
     ---
 
-    <img src="{{ "assets/img/DocMost24.png" | relURL }}" alt="Select space to edit settings" title="Select space to edit settings" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost24.png" alt="Select space to edit settings" title="Select space to edit settings" >}}
 
     ---
 
@@ -446,7 +446,7 @@ After creating a space, you can edit a space's settings.
 
      ---
 
-     <img src="{{ "assets/img/DocMost22.png" | relURL }}" alt="Update space settings" title="Update space settings" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost22.png" alt="Update space settings" title="Update space settings" >}}
 
      ---
 
@@ -473,7 +473,7 @@ Add individual members to a space for collaboration. Set specific permission lev
 
     ---
 
-    <img src="{{ "assets/img/DocMost24.png" | relURL }}" alt="Select space to add members" title="Select space to add members" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost24.png" alt="Select space to add members" title="Select space to add members" >}}
 
     ---
 
@@ -485,7 +485,7 @@ Add individual members to a space for collaboration. Set specific permission lev
 
     ---
 
-    <img src="{{ "assets/img/DocMost23.png" | relURL }}" alt="Add members to a space" title="Add members to a space" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost23.png" alt="Add members to a space" title="Add members to a space" >}}
 
     ---
 
@@ -516,7 +516,7 @@ You can remove a member from a space.
 
     ---
 
-    <img src="{{ "assets/img/DocMost24.png" | relURL }}" alt="Select space from which to remove a member" title="Select space from which to remove a member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost24.png" alt="Select space from which to remove a member" title="Select space from which to remove a member" >}}
 
     ---
 
@@ -526,7 +526,7 @@ You can remove a member from a space.
 
     ---
 
-    <img src="{{ "assets/img/DocMost28.png" | relURL }}" alt="Remove member from space" title="Remove member from space" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost28.png" alt="Remove member from space" title="Remove member from space" >}}
 
     ---
 
@@ -549,7 +549,7 @@ You can export a space in both Markdown and HTML formats for backup, migration, 
 
     ---
 
-    <img src="{{ "assets/img/DocMost24.png" | relURL }}" alt="Select space to export" title="Select space to export" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost24.png" alt="Select space to export" title="Select space to export" >}}
 
     ---
 
@@ -559,7 +559,7 @@ You can export a space in both Markdown and HTML formats for backup, migration, 
 
     ---
 
-    <img src="{{ "assets/img/DocMost29a.png" | relURL }}" alt="Select Export" title="Select Export" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost29a.png" alt="Select Export" title="Select Export" >}}
 
     ---
 
@@ -567,7 +567,7 @@ You can export a space in both Markdown and HTML formats for backup, migration, 
 
     ---
 
-    <img src="{{ "assets/img/DocMost30a.png" | relURL }}" alt="Select Export Space options" title="Select Export Space options" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost30a.png" alt="Select Export Space options" title="Select Export Space options" >}}
 
     ---
 
@@ -599,7 +599,7 @@ If you no longer need a space, you can delete it. For example, you created a spa
 
     ---
 
-    <img src="{{ "assets/img/DocMost24.png" | relURL }}" alt="Select space to delete" title="Select space to delete" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost24.png" alt="Select space to delete" title="Select space to delete" >}}
 
     ---
 
@@ -609,7 +609,7 @@ If you no longer need a space, you can delete it. For example, you created a spa
 
     ---
 
-    <img src="{{ "assets/img/DocMost31.png" | relURL }}" alt="Select Delete" title="Select Delete" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost31.png" alt="Select Delete" title="Select Delete" >}}
 
     ---
 
@@ -650,7 +650,7 @@ Create a group to manage user permissions for multiple users simultaneously.
 
     ---
 
-    <img src="{{ "assets/img/DocMost47.png" | relURL }}" alt="Create group" title="Create group" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost47.png" alt="Create group" title="Create group" >}}
 
     ---
 
@@ -666,7 +666,7 @@ Create a group to manage user permissions for multiple users simultaneously.
 
      ---
 
-     <img src="{{ "assets/img/DocMost48.png" | relURL }}" alt="Group created" title="Group created" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost48.png" alt="Group created" title="Group created" >}}
 
      ---
 
@@ -686,7 +686,7 @@ After creating a group, you can edit the group's name and description. This is h
 
     ---
 
-    <img src="{{ "assets/img/DocMost49.png" | relURL }}" alt="Edit group" title="Edit group" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost49.png" alt="Edit group" title="Edit group" >}}
 
     ---
 
@@ -694,7 +694,7 @@ After creating a group, you can edit the group's name and description. This is h
 
     ---
 
-    <img src="{{ "assets/img/DocMost50.png" | relURL }}" alt="Edit group name and description" title="Edit group name and description" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost50.png" alt="Edit group name and description" title="Edit group name and description" >}}
 
     ---
 
@@ -718,7 +718,7 @@ Instead of adding _individual_ members to a space, you can add _groups_. Assign 
 
     ---
 
-    <img src="{{ "assets/img/DocMost51.png" | relURL }}" alt="Add space members" title="Add space members" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost51.png" alt="Add space members" title="Add space members" >}}
 
     ---
 
@@ -733,7 +733,7 @@ Instead of adding _individual_ members to a space, you can add _groups_. Assign 
 
       ---
 
-      <img src="{{ "assets/img/DocMost52.png" | relURL }}" alt="Group added as a space member" title="Group added as a space member" loading="lazy">
+      {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost52.png" alt="Group added as a space member" title="Group added as a space member" >}}
 
       ---
 
@@ -760,7 +760,7 @@ After creating a group, you can easily add a member to the group.
 
     ---
 
-    <img src="{{ "assets/img/DocMost53.png" | relURL }}" alt="Add group member" title="Add group member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost53.png" alt="Add group member" title="Add group member" >}}
 
     ---
 
@@ -784,7 +784,7 @@ If needed, you can easily remove a member from the group.
 
     ---
 
-    <img src="{{ "assets/img/DocMost54.png" | relURL }}" alt="Remove group member" title="Remove group member" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost54.png" alt="Remove group member" title="Remove group member" >}}
 
     ---
 
@@ -808,7 +808,7 @@ If needed, you can delete a group.
 
     ---
 
-    <img src="{{ "assets/img/DocMost55.png" | relURL }}" alt="Delete group" title="Delete group" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost55.png" alt="Delete group" title="Delete group" >}}
 
     ---
 
@@ -841,7 +841,7 @@ Create a page, which contains content within a space. For example, for the _Huma
 
      ---
 
-    <img src="{{ "assets/img/DocMost32.png" | relURL }}" alt="Select space to create a page" title="Select space to create a page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost32.png" alt="Select space to create a page" title="Select space to create a page" >}}
 
      ---
 
@@ -849,7 +849,7 @@ Create a page, which contains content within a space. For example, for the _Huma
 
      ---
 
-     <img src="{{ "assets/img/DocMost33.png" | relURL }}" alt="New page" title="New page" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost33.png" alt="New page" title="New page" >}}
 
      ---
 
@@ -861,7 +861,7 @@ Create a page, which contains content within a space. For example, for the _Huma
 
      ---
 
-     <img src="{{ "assets/img/DocMost34.png" | relURL }}" alt="Add content to the page" title="Add content to the page" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost34.png" alt="Add content to the page" title="Add content to the page" >}}
 
      ---
 
@@ -869,7 +869,7 @@ Create a page, which contains content within a space. For example, for the _Huma
 
      ---
 
-     <img src="{{ "assets/img/DocMost35b.png" | relURL }}" alt="Manage the page" title="Manage the page" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost35b.png" alt="Manage the page" title="Manage the page" >}}
 
      ---
 
@@ -897,7 +897,7 @@ You can easily move a page to a different space. This is helpful if the content 
 
     ---
 
-    <img src="{{ "assets/img/DocMost37.png" | relURL }}" alt="Move the page" title="Move the page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost37.png" alt="Move the page" title="Move the page" >}}
 
     ---
 
@@ -905,7 +905,7 @@ You can easily move a page to a different space. This is helpful if the content 
 
     ---
 
-    <img src="{{ "assets/img/DocMost38.png" | relURL }}" alt="Select the space to move the page" title="Select the space to move the page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost38.png" alt="Select the space to move the page" title="Select the space to move the page" >}}
 
     ---
 
@@ -925,7 +925,7 @@ You can easily copy a page to a different space. This allows you to include the 
 
     ---
 
-    <img src="{{ "assets/img/DocMost39.png" | relURL }}" alt="Copy to space" title="Copy to space" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost39.png" alt="Copy to space" title="Copy to space" >}}
 
     ---
 
@@ -933,7 +933,7 @@ You can easily copy a page to a different space. This allows you to include the 
 
     ---
 
-    <img src="{{ "assets/img/DocMost40.png" | relURL }}" alt="Select the space to copy the page" title="Select the space to copy the page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost40.png" alt="Select the space to copy the page" title="Select the space to copy the page" >}}
 
     ---
 
@@ -953,7 +953,7 @@ You can duplicate a page to the same space. This is helpful if you want to creat
 
      ---
 
-     <img src="{{ "assets/img/DocMost41.png" | relURL }}" alt="Duplicate page" title="Duplicate page" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost41.png" alt="Duplicate page" title="Duplicate page" >}}
 
      ---
 
@@ -961,7 +961,7 @@ You can duplicate a page to the same space. This is helpful if you want to creat
 
      ---
 
-     <img src="{{ "assets/img/DocMost42.png" | relURL }}" alt="Copy page to the same space" title="Copy page to the same space" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost42.png" alt="Copy page to the same space" title="Copy page to the same space" >}}
 
      ---
 
@@ -977,7 +977,7 @@ You can import pages to a specific space in HTML and Markdown formats. You can a
 
     ---
 
-    <img src="{{ "assets/img/DocMost45.png" | relURL }}" alt="Import pages" title="Import pages" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost45.png" alt="Import pages" title="Import pages" >}}
 
     ---
 
@@ -995,7 +995,7 @@ You can import pages to a specific space in HTML and Markdown formats. You can a
 
      ---
 
-     <img src="{{ "assets/img/DocMost46.png" | relURL }}" alt="Upload file" title="Upload file" loading="lazy">
+     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost46.png" alt="Upload file" title="Upload file" >}}
 
      ---
 
@@ -1015,7 +1015,7 @@ You can export a page in either Markdown or HTML format for external use. You ca
 
     ---
 
-    <img src="{{ "assets/img/DocMost43.png" | relURL }}" alt="Export page" title="Export page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost43.png" alt="Export page" title="Export page" >}}
 
     ---
 
@@ -1023,7 +1023,7 @@ You can export a page in either Markdown or HTML format for external use. You ca
 
     ---
 
-    <img src="{{ "assets/img/DocMost44.png" | relURL }}" alt="Select options for exported page" title="Select options for exported page" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost44.png" alt="Select options for exported page" title="Select options for exported page" >}}
 
     ---
 

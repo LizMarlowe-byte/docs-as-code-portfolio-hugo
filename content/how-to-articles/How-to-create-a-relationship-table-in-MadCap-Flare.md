@@ -30,7 +30,7 @@ This example shows a relationship table for a _Getting Started_ chapter, with co
 
 ---
 
-<img src="{{ "assets/img/Create_rel_table1ab.png" | relURL }}" alt="Relationship table concept" title="Relationship table concept" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table1ab.png" alt="Relationship table concept" title="Relationship table concept" >}}
 
 ---
 
@@ -82,7 +82,7 @@ From Project Organizer, add a new relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table2.png" | relURL }}" alt="Add relationship table" title="Add relationship table" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table2.png" alt="Add relationship table" title="Add relationship table" >}}
 
     ---
 
@@ -96,7 +96,7 @@ From Project Organizer, add a new relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table3.png" | relURL }}" alt="Add file" title="Add file" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table3.png" alt="Add file" title="Add file" >}}
 
     ---
 
@@ -104,7 +104,7 @@ From Project Organizer, add a new relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table4.png" | relURL }}" alt="Relationship table added" title="Relationship table added" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table4.png" alt="Relationship table added" title="Relationship table added" >}}
 
     ---
   
@@ -116,7 +116,7 @@ To easily move the topics from your TOC to your relationship table, move your TO
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table5.png" | relURL }}" alt="Click and drag your TOC" title="Click and drag your TOC" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table5.png" alt="Click and drag your TOC" title="Click and drag your TOC" >}}
 
     ---
 
@@ -124,7 +124,7 @@ To easily move the topics from your TOC to your relationship table, move your TO
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table6.png" | relURL }}" alt="Place TOC in shaded square" title="Place TOC in shaded square" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table6.png" alt="Place TOC in shaded square" title="Place TOC in shaded square" >}}
 
     ---
 
@@ -132,7 +132,7 @@ To easily move the topics from your TOC to your relationship table, move your TO
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table7.png" | relURL }}" alt="Navigate to chapter in TOC" title="Navigate to chapter in TOC" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table7.png" alt="Navigate to chapter in TOC" title="Navigate to chapter in TOC" >}}
 
     ---
 
@@ -144,7 +144,7 @@ Create the first row in your relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table8.png" | relURL }}" alt="Select Row Properties" title="Select Row Properties" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table8.png" alt="Select Row Properties" title="Select Row Properties" >}}
 
     ---
 
@@ -152,7 +152,7 @@ Create the first row in your relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table9.png" | relURL }}" alt="Enter row name" title="Enter row name" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table9.png" alt="Enter row name" title="Enter row name" >}}
 
     ---
 
@@ -160,7 +160,7 @@ Create the first row in your relationship table.
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table10.png" | relURL }}" alt="Row created" title="Row created" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table10.png" alt="Row created" title="Row created" >}}
 
     ---
 
@@ -184,7 +184,7 @@ From your TOC, drag and drop the relevant topics to the row in your relationship
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table11.png" | relURL }}" alt="Drag and drop topics" title="Drag and drop topics" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table11.png" alt="Drag and drop topics" title="Drag and drop topics" >}}
 
     ---
 
@@ -196,7 +196,7 @@ By default, _different_ topic types in the same row in your relationship table w
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table12.png" | relURL }}" alt="Select Cell Properties" title="Select Cell Properties" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table12.png" alt="Select Cell Properties" title="Select Cell Properties" >}}
 
     ---
 
@@ -204,7 +204,7 @@ By default, _different_ topic types in the same row in your relationship table w
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table13.png" | relURL }}" alt="Select Family for collection type" title="Select Family for collection type" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table13.png" alt="Select Family for collection type" title="Select Family for collection type" >}}
 
     ---
 
@@ -214,7 +214,7 @@ By default, _different_ topic types in the same row in your relationship table w
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table14.png" | relURL }}" alt="Family connection between topics" title="Family connection between topics" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table14.png" alt="Family connection between topics" title="Family connection between topics" >}}
 
     ---
 
@@ -240,7 +240,7 @@ Add all relevant topics to your relationship table. In addition, add your relati
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table15.png" | relURL }}" alt="Insert relationship table snippet in topics" title="Insert relationship table snippet in topics" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table15.png" alt="Insert relationship table snippet in topics" title="Insert relationship table snippet in topics" >}}
 
     ---
 
@@ -251,7 +251,7 @@ Add all relevant topics to your relationship table. In addition, add your relati
 
     ---
 
-    <img src="{{ "assets/img/Create_rel_table16.png" | relURL }}" alt="Select relationship table for targets" title="Select relationship table for targets" loading="lazy">
+    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table16.png" alt="Select relationship table for targets" title="Select relationship table for targets" >}}
 
     ---
 
@@ -281,7 +281,7 @@ View your output. Make sure that the related topics generated by your relationsh
 
 ---
 
-<img src="{{ "assets/img/Create_rel_table17.png" | relURL }}" alt="View your output" title="View your output" loading="lazy">
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Create_rel_table17.png" alt="View your output" title="View your output" >}}
 
 ---
 
