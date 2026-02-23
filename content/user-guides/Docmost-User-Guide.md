@@ -25,7 +25,7 @@ Using a rich text editor with built-in support for multiple diagramming tools, y
 ---
 
 
-<img src="{{ "assets/img/DocMost36a.png" | relURL }}" alt="Docmost Home Page" title="Docmost Home Page" loading="lazy">
+/assets/img/DocMost36a.png
 
 
 ---
