@@ -67,6 +67,39 @@
 .admonition.warning { border-left-color: #f59e0b; }
 .admonition.info    { border-left-color: #0ea5e9; }
 
+/* Tighten spacing for nested lists and code in admonitions */
+.admonition-body ul,
+.admonition-body ol { margin: .25rem 0 .25rem 1.25rem; }
+
+.admonition-body pre { 
+  margin: .5rem 0; 
+  padding: .6rem .8rem; 
+  background: #f3f4f6; 
+  border-radius: .35rem;
+  overflow: auto;
+}
+
+/* Optional: add a subtle icon “chip” before the title (no extra markup needed) */
+.admonition-title::before {
+  content: "ℹ";               /* you can swap per type below */
+  display: inline-block;
+  font-weight: 700;
+  margin-right: .4rem;
+  color: inherit;
+}
+
+/* Different glyphs per type (optional) */
+.admonition.note .admonition-title::before    { content: "ℹ"; }
+.admonition.tip .admonition-title::before     { content: "💡"; }
+.admonition.warning .admonition-title::before { content: "⚠"; }
+.admonition.info .admonition-title::before    { content: "🛈"; }
+
+/* Optional: slightly tinted backgrounds per type */
+.admonition.note    { background: #f3f8ff; }
+.admonition.tip     { background: #f3fcf7; }
+.admonition.warning { background: #fff8ec; }
+.admonition.info    { background: #f2f9ff; }
+
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
 
      /* ===== Collapsible Topics Box (Docusaurus style) ===== */
