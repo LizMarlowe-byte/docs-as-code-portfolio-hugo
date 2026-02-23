@@ -8,11 +8,12 @@ draft: false
 
 In the _Optiflow–CloudSync CRM_ integration, CloudSync supplies customer engagement, ticket data, and real-time visibility updates from the CloudSync CRM system to the Optiflow system.
 
-??? note "Topics"
-	* [Overview](#overview)
-	* [Target audience](#target-audience)
-	* [Data retrieval flow](#data-retrieval-flow)
-	* [Customer onboarding](#customer-onboarding)
+{{< topics title="Topics" >}}
+* [Overview](#overview)
+* [Target audience](#target-audience)
+* [Data retrieval flow](#data-retrieval-flow)
+* [Customer onboarding](#customer-onboarding)
+{{< /topics >}}
 
 ### Overview
 
