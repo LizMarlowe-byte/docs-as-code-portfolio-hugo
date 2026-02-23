@@ -1,5 +1,9 @@
 <div class="topics-box">
-  <div class="topics-heading">{{ .Get "title" }}</div>
+  <button class="topics-toggle" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open');">
+    <span class="topics-label">{{ .Get "title" }}</span>
+    <span class="topics-arrow">▶</span>
+  </button>
+
   <div class="topics-content">
     {{ .Inner | markdownify }}
   </div>
