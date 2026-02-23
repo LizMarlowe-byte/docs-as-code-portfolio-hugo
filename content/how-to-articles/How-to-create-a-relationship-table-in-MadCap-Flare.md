@@ -63,13 +63,14 @@ This example shows a relationship table for a _Getting Started_ chapter, with co
 
 To automatically and dynamically link related topics in a guide, create a relationship table. You can edit a relationship table at any time. When working in a project with multiple TOCs, create a new relationship table for each TOC.
 
-??? note "Steps"
-	[1. Add Relationship Table](#1-add-relationship-table)  
-	[2. Set up your TOC](#2-set-up-your-toc)  
-	[3. Create Row in the Table](#3-create-row-in-the-table)  
-	[4. Add Topics to the Row](#4-add-topics-to-the-row)  
-	[5. Link Same Topic Types to Each Other](#5-link-same-topic-types-to-each-other)  
-	[6. Final Steps](#6-final-steps)
+The steps include the following:
+
+[1. Add Relationship Table](#1-add-relationship-table)  
+[2. Set up your TOC](#2-set-up-your-toc)  
+[3. Create Row in the Table](#3-create-row-in-the-table)  
+[4. Add Topics to the Row](#4-add-topics-to-the-row)  
+[5. Link Same Topic Types to Each Other](#5-link-same-topic-types-to-each-other)  
+[6. Final Steps](#6-final-steps)
 
 
 ### 1. Add Relationship Table 
