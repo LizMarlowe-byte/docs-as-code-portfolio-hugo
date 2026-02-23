@@ -8,11 +8,12 @@ draft: false
 
 _Docmost_ is an open-source collaborative wiki that provides easy and robust content creation and real-time collaboration.
 
-??? note "Topics"
+{{< topics title="Topics" >}}
     * [Overview](#overview)
     * [Workspaces, spaces, and pages](#workspaces-spaces-and-pages)
     * [Key features](#key-features)
     * [Target audience](#target-audience)
+{{< /topics >}}
 
 ### Overview
 
