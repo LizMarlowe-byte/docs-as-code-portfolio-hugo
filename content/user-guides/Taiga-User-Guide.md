@@ -8,11 +8,12 @@ draft: false
 
 _Taiga_ is an open-source project management tool with an intuitive interface and comprehensive support for Agile methodologies, including Scrum and Kanban.
 
-??? note "Topics"
-	* [Overview](#overview)
-	* [Taiga deployment options](#taiga-deployment-options)
-	* [Key features](#key-features)
-	* [Target audience](#target-audience)
+{{< topics title="Topics" >}}
+* [Overview](#overview)
+* [Taiga deployment options](#taiga-deployment-options)
+* [Key features](#key-features)
+* [Target audience](#target-audience)
+{{< /topics >}}
 
 ### Overview
 
@@ -81,10 +82,11 @@ This guide is intended for project managers and team leads who manage work using
 
 Create your account for the Taiga Cloud Basic deployment option. Then, set up your first project in Taiga.
 
-??? note "Topics"
-	* [Create your account](#create-your-account)
-	* [Create a project](#create-a-project)
-
+{{< topics title="Topics" >}}
+* [Create your account](#create-your-account)
+* [Create a project](#create-a-project)
+{{< /topics >}}
+	
 ### Create your account
 
 Create your account using the Taiga Cloud Basic deployment option.
@@ -205,12 +207,13 @@ Define specific settings for your project, including updating project details, a
 !!! note
     For portfolio purposes, this section includes a curated list of tasks.
 
-??? note "Topics"
-	* [Update project details](#update-project-details)
-	* [Add new members](#add-new-members)
-	* [Define role permissions](#define-role-permissions)
-	* [Create a custom field](#create-a-custom-field)
-	* [Add a new issue type](#add-a-new-issue-type)
+{{< topics title="Topics" >}}
+* [Update project details](#update-project-details)
+* [Add new members](#add-new-members)
+* [Define role permissions](#define-role-permissions)
+* [Create a custom field](#create-a-custom-field)
+* [Add a new issue type](#add-a-new-issue-type)
+{{< /topics >}}
 
 ### Update project details
 
@@ -472,11 +475,12 @@ The following table summarizes each step in the workflow.
 
 During backlog management, you prepare and prioritize work by creating the key entities you will use to manage work on a daily basis: _epics_, _user stories_, and _tasks_. Managing these entities and following the Scrum workflow helps you organize and prioritize work, with the goal of delivering value within the defined timebox.
 
-??? note "Topics"
-	* [Create an epic](#create-an-epic)
-	* [Create a user story](#create-a-user-story)
-	* [Create a task](#create-a-task)
-
+{{< topics title="Topics" >}}
+* [Create an epic](#create-an-epic)
+* [Create a user story](#create-a-user-story)
+* [Create a task](#create-a-task)
+{{< /topics >}}
+	
 ### Create an epic
 
 Create an _epic_, which groups related user stories. Together, the user stories in an epic encapsulate work towards a specific product development. 
@@ -677,10 +681,11 @@ During sprint execution, you deliver the work that was prepared during backlog m
 
 Teams work collaboratively to complete stories within the sprint’s timebox, resolve blockers, and track progress using task boards or burndown charts. At the end of the sprint, completed work is reviewed and demonstrated, and the team reflects on improvements during the retrospective.
 
-??? note "Topics"
-	* [Create a sprint](#create-a-sprint)
-	* [Assign user stories to a sprint](#assign-user-stories-to-a-sprint)
-	* [Track progress and complete user stories](#track-progress-and-complete-user-stories)
+{{< topics title="Topics" >}}
+* [Create a sprint](#create-a-sprint)
+* [Assign user stories to a sprint](#assign-user-stories-to-a-sprint)
+* [Track progress and complete user stories](#track-progress-and-complete-user-stories)
+{{< /topics >}}
 
 ### Create a sprint
 
@@ -855,12 +860,11 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
 Beyond Scrum, Taiga supports other project management methodologies. In addition to organizing work into timeboxed sprints and managing tasks and user stories, you can configure Taiga to use a Kanban board for a higher-level view of project progress. Issues may be tracked independently of sprints, and the Team Board can be utilized for any type of project to display team member roles, skills, and contributions.
 
-
-??? note "Topics"
-	* [Manage a Kanban board](#manage-a-kanban-board)
-	* [Manage issues](#manage-issues)
-	* [Manage the team board](#manage-the-team-board)
-
+{{< topics title="Topics" >}}
+* [Manage a Kanban board](#manage-a-kanban-board)
+* [Manage issues](#manage-issues)
+* [Manage the team board](#manage-the-team-board)
+{{< /topics >}}
 
 ### Manage a Kanban board
 
