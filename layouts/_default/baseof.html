@@ -42,12 +42,30 @@
       th,td{border:1px solid var(--border);padding:.5rem .6rem;vertical-align:top}
       th{background:#f8fafc;text-align:left}
 
-      /* Optional: basic admonitions */
-      .admonition{border:1px solid var(--border);border-left-width:4px;border-radius:.5rem;padding:.75rem 1rem;margin:1rem 0;background:#f9fafb}
-      .admonition-title{font-weight:600;margin:.1rem 0 .5rem}
-      .admonition.note{border-left-color:#3b82f6}
-      .admonition.tip{border-left-color:#10b981}
-      .admonition.warning{border-left-color:#f59e0b}
+      /* ===== Admonitions ===== */
+.admonition {
+  border: 1px solid var(--border);
+  border-left-width: 4px;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  margin: 1.25rem 0;
+  background: #f9fafb;
+}
+
+.admonition-title {
+  font-weight: 600;
+  margin-bottom: .35rem;
+}
+
+.admonition-body p {
+  margin: .25rem 0;
+}
+
+/* Color variants */
+.admonition.note    { border-left-color: #3b82f6; }
+.admonition.tip     { border-left-color: #10b981; }
+.admonition.warning { border-left-color: #f59e0b; }
+.admonition.info    { border-left-color: #0ea5e9; }
 
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
 
