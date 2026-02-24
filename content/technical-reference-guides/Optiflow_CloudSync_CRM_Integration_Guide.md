@@ -30,12 +30,8 @@ Optiflow also requests updates for mapping purposes to ensure usernames, statuse
 
 This integration supports users of the **CloudSync Service Hub**, utilizing **Chat Sessions**, **Video Support**, and **Support Ticket** channels. The real-time monitoring feed leverages CloudSync’s Omnichannel presence to display active sessions in Optiflow dashboards.
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-    The Optiflow–CloudSync CRM integration uses the available **CloudSync API suite** and does _not_ require installing any packages in your CloudSync environment. Some minor setup in CloudSync is required to provide authentication and populate the APIs with the required data.
-  </div>
-</div>
+> [!NOTE]
+> The Optiflow–CloudSync CRM integration uses the available **CloudSync API suite** and does _not_ require installing any packages in your CloudSync environment. Some minor setup in CloudSync is required to provide authentication and populate the APIs with the required data.  
     
 
 #### Integration feeds
