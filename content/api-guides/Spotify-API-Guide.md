@@ -322,8 +322,13 @@ curl "https://api.spotify.com/v1/me/playlists?offset=20&limit=20" \
 
 ```
 
-{{< note >}}
-    If the response is null, you have reached the last page.
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+     If the response is null, you have reached the last page.
+  </div>
+</div>
+
 
 ---
 
@@ -427,8 +432,13 @@ However, if you want to define an _unlimited_ number of users, your organization
 
 You can now request an _access token_, which is a string that contains the credentials and permissions used to access a given resource (such as artists, albums, or tracks) or user data (for example, your profile or playlists).
 
-!!! note
-    Spotify uses the OAuth2 standard for authorization, which defines four grant types (or flows) to request and get an access token. Spotify implements three of them: Authorization Code, Authorization Code with PKCE Extension, and Client Credentials. This getting started task utilizes the Client Credentials flow. For more information, see [Spotify implements three OAuth grant types](#spotify-implements-three-oauth-grant-types).
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+   Spotify uses the OAuth2 standard for authorization, which defines four grant types (or flows) to request and get an access token. Spotify implements three of them: Authorization Code, Authorization Code with PKCE Extension, and Client Credentials. This getting started task utilizes the Client Credentials flow. For more information, see [Spotify implements three OAuth grant types](#spotify-implements-three-oauth-grant-types).
+  </div>
+</div>
+    
 
 **Before you begin**
 
@@ -438,8 +448,13 @@ You can now request an _access token_, which is a string that contains the crede
     - For _macOS/Linux_, it is usually pre-installed. 
     - For _Windows_, [download and install curl](https://curl.se/windows/) or use Git Bash.
 
-!!! info
+<div class="admonition info">
+  <div class="admonition-title">Info</div>
+  <div class="admonition-body">
     Curl is a command-line tool used to transfer data to or from a server using various protocols - most commonly **HTTP** and **HTTPS**.
+  </div>
+</div>
+   
 
 **Procedure**
 
@@ -502,8 +517,12 @@ You can now request an _access token_, which is a string that contains the crede
 
 This tutorial describes how to retrieve information about an artist. It involves appending the Spotify ID of the artist to the **Get Artist** endpoint, and including the access token using the `Authorization` header in the API request. 
 
-!!! info
-    The request includes using curl (Client URL) for the HTTP request.
+<div class="admonition info">
+  <div class="admonition-title">Info</div>
+  <div class="admonition-body">
+     The request includes using curl (Client URL) for the HTTP request.
+  </div>
+</div>
 
 ### Before you begin
 
@@ -1317,9 +1336,14 @@ If successful (**204** status code), playback on the device is paused.
 
 Skips to the next track in the user's queue. 
 
-!!! note
-    This API only works for users who have Spotify Premium. The order of execution is _not_ guaranteed when you use this API with other Player API endpoints.
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+     This API only works for users who have Spotify Premium. The order of execution is _not_ guaranteed when you use this API with other Player API endpoints.
+  </div>
+</div>
 
+   
 #### Method
 
 POST
@@ -1818,4 +1842,3 @@ For example:
 }
 
 ```
-{{< /note >}}
