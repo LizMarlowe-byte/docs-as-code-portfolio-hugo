@@ -214,5 +214,31 @@ pre {
     <footer>
       © {{ now.Year }} {{ .Site.Author.name | default "" }}
     </footer>
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+  // Find all fenced code blocks
+  document.querySelectorAll("pre > code").forEach((codeBlock) => {
+    const pre = codeBlock.parentNode;
+
+    // Create button
+    const button = document.createElement("button");
+    button.className = "code-copy-btn";
+    button.type = "button";
+    button.innerText = "Copy";
+
+    // Copy handler
+    button.addEventListener("click", function () {
+      const text = codeBlock.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        button.innerText = "Copied!";
+        setTimeout(() => { button.innerText = "Copy"; }, 1500);
+      });
+    });
+
+    // Insert button into <pre>
+    pre.appendChild(button);
+  });
+});
+</script>
   </body>
 </html>
