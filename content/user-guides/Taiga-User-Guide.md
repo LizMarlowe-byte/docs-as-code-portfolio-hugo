@@ -112,17 +112,17 @@ Create your account using the Taiga Cloud Basic deployment option.
 ---
 
 
-    <div markdown="1">
+<div markdown="1">
 
-     |Field             |Description|
-     |:-----------------|:-----------------------|
-     |Name              |Enter your username. |
-     |Full Name         |Enter your first and last name.|
-     |Email             |Enter your email address. |
-     |Password          |Enter a unique password. |
-     |When creating a new account, you agree to your terms of service and privacy policy.| Select this setting.|
+|Field             |Description|
+|:-----------------|:-----------------------|
+|Name              |Enter your username. |
+|Full Name         |Enter your first and last name.|
+|Email             |Enter your email address. |
+|Password          |Enter a unique password. |
+|When creating a new account, you agree to your terms of service and privacy policy.| Select this setting.|
 	
-	</div>    
+</div>    
  
 
 3. Select **Sign Up**.
