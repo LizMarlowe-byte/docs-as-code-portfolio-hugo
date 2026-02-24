@@ -60,9 +60,12 @@ There are two main types of deployment options:
 
 ---
 
-{{< note >}}
-    For updated pricing information for all deployment options, see [Taiga's website](https://taiga.io/ "Taiga's website").
-
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+   For updated pricing information for all deployment options, see [Taiga's website](https://taiga.io/ "Taiga's website").
+  </div>
+</div>
 
 ### Key features
 
@@ -91,8 +94,12 @@ Create your account for the Taiga Cloud Basic deployment option. Then, set up yo
 
 Create your account using the Taiga Cloud Basic deployment option.
 
-!!! info
+<div class="admonition info">
+  <div class="admonition-title">Info</div>
+  <div class="admonition-body">
     For more information about other types of deployment options, see [Taiga deployment options](#taiga-deployment-options).
+  </div>
+</div>
 
 **Procedure**
 
@@ -100,8 +107,12 @@ Create your account using the Taiga Cloud Basic deployment option.
 
 2. On the [Taiga register account page](https://tree.taiga.io/register), complete the fields.
 
-    !!! tip
-        Alternatively, you can log in with GitHub or GitLab.
+<div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+   Alternatively, you can log in with GitHub or GitLab.
+  </div>
+</div>     
 
     ---
 
@@ -168,9 +179,13 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
 3. If you selected **Scrum**, **Kanban**, or **Duplicate Project**, enter your project details.
 
-    !!! note
-        If you selected **Duplicate Project**, select the project you want to duplicate, and then enter your project details. If you selected **Import Project**, select the platform of the project you want to import and browse and select the project to import.
-
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+   If you selected **Duplicate Project**, select the project you want to duplicate, and then enter your project details. If you selected **Import Project**, select the platform of the project you want to import and browse and select the project to import.
+  </div>
+</div>
+    
     ---
 
     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
@@ -184,7 +199,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
     |Public Project / Private Project |Select whether the project is open to all users (**Public**) or just the project's team members (**Private**). <br>The number of public projects you can create is determined by your [Taiga subscription plan](#taiga-deployment-options). For more information, see [What's the difference between public and private projects?](https://community.taiga.io/t/whats-the-difference-between-public-and-private-projects/139)
 
 
-4. Select **Create Project**.
+5. Select **Create Project**.
 
      The system creates the new project. From here, you can start populating your project with stories, tasks, and issues. <br>For example, if you selected a Scrum project, you can start creating user stories for your product backlog (see [Create a user story](#create-a-user-story)).
 
@@ -194,18 +209,25 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
      ---
 
-      
-	!!! tip
-        Before creating your user stories, you might find it useful to define your project settings, including adding team members to your project, customizing specific Agile entities (such as custom fields and adding new story points), and defining project modules and roles. If that is your preferred workflow, see [Defining project settings](#defining-project-settings).
-
-
+    <div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+    Before creating your user stories, you might find it useful to define your project settings, including adding team members to your project, customizing specific Agile entities (such as custom fields and adding new story points), and defining project modules and roles. If that is your preferred workflow, see [Defining project settings](#defining-project-settings).
+  </div>
+</div>  
+	
 
 ## ⚙️ Defining project settings
 
 Define specific settings for your project, including updating project details, adding team members to the project, defining role permissions, and customizing specific Taiga attributes.
 
-!!! note
-    For portfolio purposes, this section includes a curated list of tasks.
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+   For portfolio purposes, this section includes a curated list of tasks.
+  </div>
+</div>
+
 
 {{< topics title="Topics" >}}
 * [Update project details](#update-project-details)
@@ -258,8 +280,12 @@ Update existing project settings (such as name, description, logo, owner, and pu
 
     The application saves your updates.
 
-    !!! tip
-        If needed, you can also delete the project from this screen.
+    <div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+  If needed, you can also delete the project from this screen.
+  </div>
+</div>
 
 
 ### Add new members
@@ -320,8 +346,13 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-    !!! tip
-        If needed, you can delete members from this screen by selecting the **Delete member** icon.
+   <div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+    If needed, you can delete members from this screen by selecting the **Delete member** icon.
+  </div>
+</div>
+
 
 ### Define role permissions
 
@@ -485,8 +516,13 @@ During backlog management, you prepare and prioritize work by creating the key e
 
 Create an _epic_, which groups related user stories. Together, the user stories in an epic encapsulate work towards a specific product development. 
 
-!!! example
-    For example, an epic called _User Management Accessibility Redesign_ includes user stories that define development related to accessibility features in the User Management application.
+<div class="admonition example">
+  <div class="admonition-title">Example</div>
+  <div class="admonition-body">
+   For example, an epic called _User Management Accessibility Redesign_ includes user stories that define development related to accessibility features in the User Management application.
+  </div>
+</div>
+
 
 **Before you begin**
 
@@ -543,12 +579,21 @@ Review the [Scrum project workflow](#scrum-project-workflow)
 
 Create a _user story_ that defines specific development needed to accomplish the goal of the epic.
 
-!!! example
-    For example, in the epic called _User Management Accessibility Redesign_, create a user story called _Change UI Labels_, which defines changing the UI text headings to comply with WCAG requirements.
+<div class="admonition example">
+  <div class="admonition-title">Example</div>
+  <div class="admonition-body">
+   For example, in the epic called _User Management Accessibility Redesign_, create a user story called _Change UI Labels_, which defines changing the UI text headings to comply with WCAG requirements.
+  </div>
+</div>
 
-!!! note
-    There are two ways to create user stories—from the **Epics** dashboard or from the backlog. To emphasize the value of the project workflow, this procedure describes how to create user stories from the **Epics** dashboard. To create a user story from the backlog, select **Scrum** > **Backlog**, select **+ User Story**, and associate the user story with the relevant epic.
+	<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+   There are two ways to create user stories—from the **Epics** dashboard or from the backlog. To emphasize the value of the project workflow, this procedure describes how to create user stories from the **Epics** dashboard. To create a user story from the backlog, select **Scrum** > **Backlog**, select **+ User Story**, and associate the user story with the relevant epic.
+  </div>
+</div>
 
+    
 **Before you begin**
 
 [Create an epic](#create-an-epic)
@@ -616,8 +661,12 @@ Create a _user story_ that defines specific development needed to accomplish the
 
 Within each user story, create a _task_, which breaks up story work into smaller, manageable chunks that different members of the team can work on. 
 
-!!! example
+<div class="admonition example">
+  <div class="admonition-title">Example</div>
+  <div class="admonition-body">
     For example, for the user story, _Change UI Labels_, there are 3 tasks: _Propose New UI Labels_, _Update Text Labels in DB_, and _Test New UI Labels_. Each task is assigned to a different member of the team.
+  </div>
+</div>
 
 **Before you begin**
 
@@ -793,8 +842,12 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     --- 
 
-    !!! tip
-        Alternatively, from the left sidebar, select **Scrum > {Sprint Name}**. For example, select **Scrum > DataLogix-S1**.
+    <div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+     Alternatively, from the left sidebar, select **Scrum > {Sprint Name}**. For example, select **Scrum > DataLogix-S1**.
+  </div>
+</div>
 
 2. View the Sprint Taskboard.
 
@@ -1050,6 +1103,3 @@ In Taiga, the team board can be utilized for any project type to display team me
     |Likes        |Number of likes the team member has on their page. |
     |Watched      |Entities that the team member "watches," including projects, epics, stories, tasks, and issues.|
     |Contact List |Names of the team member's contacts.
-
-
-{{< /note >}}
