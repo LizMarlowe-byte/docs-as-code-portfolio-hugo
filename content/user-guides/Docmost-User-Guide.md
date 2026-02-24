@@ -238,7 +238,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
 {{< tip >}}
 Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
-{{< tip >}}
+{{< /tip >}}
 
 2. On the **Members** page, select **Invite members**.
 
