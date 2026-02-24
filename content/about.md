@@ -29,7 +29,7 @@ This portfolio series is my opportunity to:
 ## ⚙️ What I Built Using **Hugo**
 
 ### 🔧 Workflow & Architecture
-- Section‑based IA using **Hugo’s content sections** (`content/user-guides`, `content/api-guides`, etc.) with clean section landing pages (`_index.md`)  
+- Section‑based IA using **Hugo’s content sections** (`content/user-guides`, `content/api-guides`, etc.) with clean section landing pages (`_index.md`) 
 - Markdown authoring and **Git‑based reviews**  
 - **Accessibility‑minded** content (alt text on images, clear headings)
 
