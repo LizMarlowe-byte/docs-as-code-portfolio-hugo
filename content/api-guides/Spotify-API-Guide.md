@@ -432,14 +432,9 @@ However, if you want to define an _unlimited_ number of users, your organization
 
 You can now request an _access token_, which is a string that contains the credentials and permissions used to access a given resource (such as artists, albums, or tracks) or user data (for example, your profile or playlists).
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   Spotify uses the OAuth2 standard for authorization, which defines four grant types (or flows) to request and get an access token. Spotify implements three of them: Authorization Code, Authorization Code with PKCE Extension, and Client Credentials. This getting started task utilizes the Client Credentials flow. For more information, see [Spotify implements three OAuth grant types](#spotify-implements-three-oauth-grant-types).
-  </div>
-</div>
+> [!NOTE]
+> Spotify uses the OAuth2 standard for authorization, which defines four grant types (or flows) to request and get an access token. Spotify implements three of them: Authorization Code, Authorization Code with PKCE Extension, and Client Credentials. This getting started task utilizes the Client Credentials flow. For more information, see [Spotify implements three OAuth grant types](#spotify-implements-three-oauth-grant-types).
     
-
 **Before you begin**
 
 - [Create an app](#create-an-app)
@@ -448,14 +443,9 @@ You can now request an _access token_, which is a string that contains the crede
     - For _macOS/Linux_, it is usually pre-installed. 
     - For _Windows_, [download and install curl](https://curl.se/windows/) or use Git Bash.
 
-<div class="admonition info">
-  <div class="admonition-title">Info</div>
-  <div class="admonition-body">
-    Curl is a command-line tool used to transfer data to or from a server using various protocols - most commonly **HTTP** and **HTTPS**.
-  </div>
-</div>
+> [!INFO]
+> Curl is a command-line tool used to transfer data to or from a server using various protocols - most commonly **HTTP** and **HTTPS**.
    
-
 **Procedure**
 
 1. From the [Dashboard](https://developer.spotify.com/dashboard), select the app you just created.
@@ -517,12 +507,8 @@ You can now request an _access token_, which is a string that contains the crede
 
 This tutorial describes how to retrieve information about an artist. It involves appending the Spotify ID of the artist to the **Get Artist** endpoint, and including the access token using the `Authorization` header in the API request. 
 
-<div class="admonition info">
-  <div class="admonition-title">Info</div>
-  <div class="admonition-body">
-     The request includes using curl (Client URL) for the HTTP request.
-  </div>
-</div>
+> [!INFO]
+> The request includes using curl (Client URL) for the HTTP request.
 
 ### Before you begin
 
