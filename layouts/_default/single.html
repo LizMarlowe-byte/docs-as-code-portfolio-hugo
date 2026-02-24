@@ -1,7 +1,16 @@
 {{ define "main" }}
-  <article>
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.summary }}<p class="muted">{{ . }}</p>{{ end }}
+
+<div class="content-with-toc">
+
+  <article class="main-content">
     {{ .Content }}
   </article>
+
+  <aside class="toc-sidebar">
+    <h2>Table of Contents</h2>
+    {{ .TableOfContents }}
+  </aside>
+
+</div>
+
 {{ end }}
