@@ -88,13 +88,8 @@ Set up your account for the cloud-hosted version of Docmost. Then, set up your p
 
 Set up your account for Docmost, which provides you with web-based, thin client access through your browser. 
 
-
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-    To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
-</div>
-</div>
+> [!NOTE]
+> To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
 
 
 **Procedure**
@@ -241,12 +236,8 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-<div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-    Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
-  </div>
-</div>
+> [!TIP]
+> Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
 
 2. On the **Members** page, select **Invite members**.
 
@@ -268,13 +259,8 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 	
 	</div>
 
-    <div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-    If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
-  </div>
-</div>
-	    
+   > [!TIP]
+   > If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
 
 4. Select **Send invitation**.
 
