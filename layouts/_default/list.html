@@ -1,5 +1,6 @@
 {{ define "main" }}
 
+  {{/* ---------- HOME PAGE (unchanged) ---------- */}}
   {{ if .IsHome }}
     <h1>{{ .Title | default "Welcome" }}</h1>
     {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
@@ -10,54 +11,38 @@
       {{ $ht := site.GetPage "section" "how-to-articles" }}
       {{ $rg := site.GetPage "section" "technical-reference-guides" }}
 
-      <a class="card" href="{{ $ug.RelPermalink }}">
+      {{ $ug.RelPermalink }}
         <h2>User Guides</h2>
         <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      <a class="card" href="{{ $ag.RelPermalink }}">
+      {{ $ag.RelPermalink }}
         <h2>API Guides</h2>
         <p class="muted">{{ with $ag }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      <a class="card" href="{{ $ht.RelPermalink }}">
+      {{ $ht.RelPermalink }}
         <h2>How to Articles</h2>
         <p class="muted">{{ with $ht }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      <a class="card" href="{{ $rg.RelPermalink }}">
+      {{ $rg.RelPermalink }}
         <h2>Technical Reference Guides</h2>
         <p class="muted">{{ with $rg }}{{ .Params.summary }}{{ end }}</p>
       </a>
     </section>
 
+  {{/* ---------- SECTION LANDING PAGES (cards only, no sidebar, no duplicates) ---------- */}}
   {{ else if .IsSection }}
-
-  <article class="section-content">
-    <h1>{{ .Title }}</h1>
-    {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
-    {{/* If later you add Markdown content to _index.md, replace the line above with: {{ .Content }} */}}
-
-    <div class="cards">
-      {{ range .Pages.ByWeight }}
-        <a class="card" href="{{ .RelPermalink }}">
-          <h2>{{ .LinkTitle | default .Title }}</h2>
-          <p class="muted">
-            {{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
-          </p>
-        </a>
-      {{ end }}
-    </div>
-  </article>
 
     <article class="section-content">
       <h1>{{ .Title }}</h1>
       {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
-      {{/* If later you add Markdown body to _index.md, swap the previous line for: {{ .Content }} */}}
+      {{/* If later you add Markdown body to _index.md, replace the previous line with: {{ .Content }} */}}
 
       <div class="cards">
         {{ range .Pages.ByWeight }}
-          <a class="card" href="{{ .RelPermalink }}">
+          {{ .RelPermalink }}
             <h2>{{ .LinkTitle | default .Title }}</h2>
             <p class="muted">
               {{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
@@ -66,8 +51,8 @@
         {{ end }}
       </div>
     </article>
-  </div>
 
+  {{/* ---------- Any other list (rare in your site) ---------- */}}
   {{ else }}
     <article>
       <h1>{{ .Title }}</h1>
