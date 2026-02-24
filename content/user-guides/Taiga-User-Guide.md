@@ -60,12 +60,9 @@ There are two main types of deployment options:
 
 ---
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   For updated pricing information for all deployment options, see [Taiga's website](https://taiga.io/ "Taiga's website").
-  </div>
-</div>
+> [!NOTE]
+> For updated pricing information for all deployment options, see [Taiga's website](https://taiga.io/ "Taiga's website").
+
 
 ### Key features
 
@@ -94,12 +91,9 @@ Create your account for the Taiga Cloud Basic deployment option. Then, set up yo
 
 Create your account using the Taiga Cloud Basic deployment option.
 
-<div class="admonition info">
-  <div class="admonition-title">Info</div>
-  <div class="admonition-body">
-    For more information about other types of deployment options, see [Taiga deployment options](#taiga-deployment-options).
-  </div>
-</div>
+> [!INFO]
+> For more information about other types of deployment options, see [Taiga deployment options](#taiga-deployment-options).
+
 
 **Procedure**
 
@@ -107,12 +101,9 @@ Create your account using the Taiga Cloud Basic deployment option.
 
 2. On the [Taiga register account page](https://tree.taiga.io/register), complete the fields.
 
-<div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-   Alternatively, you can log in with GitHub or GitLab.
-  </div>
-</div>     
+> [!TIP]
+> Alternatively, you can log in with GitHub or GitLab.
+    
 
     ---
 
@@ -179,12 +170,8 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
 3. If you selected **Scrum**, **Kanban**, or **Duplicate Project**, enter your project details.
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   If you selected **Duplicate Project**, select the project you want to duplicate, and then enter your project details. If you selected **Import Project**, select the platform of the project you want to import and browse and select the project to import.
-  </div>
-</div>
+> [!NOTE]
+> If you selected **Duplicate Project**, select the project you want to duplicate, and then enter your project details. If you selected **Import Project**, select the platform of the project you want to import and browse and select the project to import.
     
     ---
 
@@ -209,24 +196,16 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
      ---
 
-    <div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-    Before creating your user stories, you might find it useful to define your project settings, including adding team members to your project, customizing specific Agile entities (such as custom fields and adding new story points), and defining project modules and roles. If that is your preferred workflow, see [Defining project settings](#defining-project-settings).
-  </div>
-</div>  
+> [!TIP]
+> Before creating your user stories, you might find it useful to define your project settings, including adding team members to your project, customizing specific Agile entities (such as custom fields and adding new story points), and defining project modules and roles. If that is your preferred workflow, see [Defining project settings](#defining-project-settings). 
 	
 
 ## ⚙️ Defining project settings
 
 Define specific settings for your project, including updating project details, adding team members to the project, defining role permissions, and customizing specific Taiga attributes.
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   For portfolio purposes, this section includes a curated list of tasks.
-  </div>
-</div>
+> [!NOTE]
+> For portfolio purposes, this section includes a curated list of tasks.
 
 
 {{< topics title="Topics" >}}
@@ -280,13 +259,8 @@ Update existing project settings (such as name, description, logo, owner, and pu
 
     The application saves your updates.
 
-    <div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-  If needed, you can also delete the project from this screen.
-  </div>
-</div>
-
+> [!TIP]
+> If needed, you can also delete the project from this screen.
 
 ### Add new members
 
@@ -346,12 +320,8 @@ Add new members whom you want to contribute to your project. Typically, this inc
 
     ---
 
-   <div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-    If needed, you can delete members from this screen by selecting the **Delete member** icon.
-  </div>
-</div>
+> [!TIP]
+> If needed, you can delete members from this screen by selecting the **Delete member** icon.
 
 
 ### Define role permissions
@@ -516,13 +486,8 @@ During backlog management, you prepare and prioritize work by creating the key e
 
 Create an _epic_, which groups related user stories. Together, the user stories in an epic encapsulate work towards a specific product development. 
 
-<div class="admonition example">
-  <div class="admonition-title">Example</div>
-  <div class="admonition-body">
-   For example, an epic called _User Management Accessibility Redesign_ includes user stories that define development related to accessibility features in the User Management application.
-  </div>
-</div>
-
+> [!EXAMPLE]
+> For example, an epic called _User Management Accessibility Redesign_ includes user stories that define development related to accessibility features in the User Management application.
 
 **Before you begin**
 
@@ -579,21 +544,12 @@ Review the [Scrum project workflow](#scrum-project-workflow)
 
 Create a _user story_ that defines specific development needed to accomplish the goal of the epic.
 
-<div class="admonition example">
-  <div class="admonition-title">Example</div>
-  <div class="admonition-body">
-   For example, in the epic called _User Management Accessibility Redesign_, create a user story called _Change UI Labels_, which defines changing the UI text headings to comply with WCAG requirements.
-  </div>
-</div>
+> [!EXAMPLE]
+> For example, in the epic called _User Management Accessibility Redesign_, create a user story called _Change UI Labels_, which defines changing the UI text headings to comply with WCAG requirements.
 
-	<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   There are two ways to create user stories—from the **Epics** dashboard or from the backlog. To emphasize the value of the project workflow, this procedure describes how to create user stories from the **Epics** dashboard. To create a user story from the backlog, select **Scrum** > **Backlog**, select **+ User Story**, and associate the user story with the relevant epic.
-  </div>
-</div>
+> [!NOTE]
+> There are two ways to create user stories—from the **Epics** dashboard or from the backlog. To emphasize the value of the project workflow, this procedure describes how to create user stories from the **Epics** dashboard. To create a user story from the backlog, select **Scrum** > **Backlog**, select **+ User Story**, and associate the user story with the relevant epic.
 
-    
 **Before you begin**
 
 [Create an epic](#create-an-epic)
@@ -661,12 +617,8 @@ Create a _user story_ that defines specific development needed to accomplish the
 
 Within each user story, create a _task_, which breaks up story work into smaller, manageable chunks that different members of the team can work on. 
 
-<div class="admonition example">
-  <div class="admonition-title">Example</div>
-  <div class="admonition-body">
-    For example, for the user story, _Change UI Labels_, there are 3 tasks: _Propose New UI Labels_, _Update Text Labels in DB_, and _Test New UI Labels_. Each task is assigned to a different member of the team.
-  </div>
-</div>
+> [!EXAMPLE]
+> For example, for the user story, _Change UI Labels_, there are 3 tasks: _Propose New UI Labels_, _Update Text Labels in DB_, and _Test New UI Labels_. Each task is assigned to a different member of the team.
 
 **Before you begin**
 
@@ -842,12 +794,8 @@ During the daily standups, discuss any blockers, issues, and dependencies, and t
 
     --- 
 
-    <div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-     Alternatively, from the left sidebar, select **Scrum > {Sprint Name}**. For example, select **Scrum > DataLogix-S1**.
-  </div>
-</div>
+> [!TIP]
+> Alternatively, from the left sidebar, select **Scrum > {Sprint Name}**. For example, select **Scrum > DataLogix-S1**.
 
 2. View the Sprint Taskboard.
 
