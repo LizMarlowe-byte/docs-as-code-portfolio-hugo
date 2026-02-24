@@ -88,9 +88,14 @@ Set up your account for the cloud-hosted version of Docmost. Then, set up your p
 
 Set up your account for Docmost, which provides you with web-based, thin client access through your browser. 
 
-{{< note >}}
-To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
-{{< /note >}}
+
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+    To install the enterprise version of Docmost, refer to the [Docmost enterprise installation instructions](https://docmost.com/docs/installation/).
+</div>
+</div>
+
 
 **Procedure**
 
@@ -236,9 +241,12 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     ---
 
-{{< tip >}}
-Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
-{{< /tip >}}
+<div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+    Alternatively, from the left pane, under **Settings** and **Workspace**, select **Members**.
+  </div>
+</div>
 
 2. On the **Members** page, select **Invite members**.
 
@@ -260,8 +268,13 @@ Alternatively, from the left pane, under **Settings** and **Workspace**, select 
 	
 	</div>
 
-    !!! tip
-	    If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
+    <div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+    If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
+  </div>
+</div>
+	    
 
 4. Select **Send invitation**.
 
@@ -464,9 +477,12 @@ After creating a space, you can edit a space's settings.
 
 Add individual members to a space for collaboration. Set specific permission levels for each member.
 
-!!! tip
+<div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
     If you want to add multiple users to a space simultaneously, [create a group](#create-a-group) and then [add the entire group as a space member](#grant-group-access-to-a-space).
-
+  </div>
+</div>
 
 **Procedure**
 
@@ -503,9 +519,12 @@ Add individual members to a space for collaboration. Set specific permission lev
 
     The system adds the selected users as members to the space with the defined role. 
 
-    !!! tip
-        If you want to assign different roles to different members, complete these steps for members for whom you want to assign the _same_ role. Then, repeat these steps for members for whom you want to assign a _different_ role. 
-
+<div class="admonition tip">
+  <div class="admonition-title">Tip</div>
+  <div class="admonition-body">
+   If you want to assign different roles to different members, complete these steps for members for whom you want to assign the _same_ role. Then, repeat these steps for members for whom you want to assign a _different_ role. 
+  </div>
+</div>
 
 ### Remove a member from a space
 
@@ -591,8 +610,12 @@ You can export a space in both Markdown and HTML formats for backup, migration, 
 
 If you no longer need a space, you can delete it. For example, you created a space for a small group of members and they have merged into a bigger group that belongs to a different space.
 
-!!! warning
+<div class="admonition warning">
+  <div class="admonition-title">Warning</div>
+  <div class="admonition-body">
     Deleting a space permanently removes all pages, comments, attachments and permissions associated with the space. You _cannot_ undo this action.
+  </div>
+</div>
 
 **Procedure**
 
@@ -628,8 +651,12 @@ Create **_groups_**, which allow you to manage user permissions for multiple use
 
 All users are assigned to a default group called **Everyone**.
 
-!!! note
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
     Only users with **Admin** or **Owner** roles can create, edit, and delete groups.
+  </div>
+</div>
 
 {{< topics title="Topics" >}}
 * [Create a group](#create-a-group)
@@ -742,9 +769,13 @@ Instead of adding _individual_ members to a space, you can add _groups_. Assign 
       {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/DocMost52.png" alt="Group added as a space member" title="Group added as a space member" >}}
 
       ---
-
-    !!! note
-	    If a user has been added as an individual member _and_ as a group member to the _same_ space with _different_ permission levels, the highest permission level applies. For example,  Alex Smith has been added as a member to the space, **Research & Development**, with **Can View** permissions. Alex has also been added to the group, **Core Engineering Team**, which has **Can Edit** permissions to this space. Therefore, Alex has edit privileges for this space. 
+   
+<div class="admonition note">
+  <div class="admonition-title">Note</div>
+  <div class="admonition-body">
+     If a user has been added as an individual member _and_ as a group member to the _same_ space with _different_ permission levels, the highest permission level applies. For example,  Alex Smith has been added as a member to the space, **Research & Development**, with **Can View** permissions. Alex has also been added to the group, **Core Engineering Team**, which has **Can Edit** permissions to this space. Therefore, Alex has edit privileges for this space. 
+  </div>
+</div>
 
 ### Add a member to a group
 
@@ -1045,11 +1076,3 @@ You can export a page in either Markdown or HTML format for external use. You ca
 6. Save the exported file as a .zip file in the selected location.
 
 
-
-
-
-
-
-
-
-{{< /note >}}
