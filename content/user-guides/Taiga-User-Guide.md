@@ -177,11 +177,11 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 > [!NOTE]
 > If you selected **Duplicate Project**, select the project you want to duplicate, and then enter your project details. If you selected **Import Project**, select the platform of the project you want to import and browse and select the project to import.
     
-    ---
-
-    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
-
-    ---
+---
+	
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
+    
+---
 
 
  <div markdown="1">
