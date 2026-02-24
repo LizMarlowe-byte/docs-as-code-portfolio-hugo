@@ -171,28 +171,60 @@
 .topics-content a:hover {
   text-decoration: underline;
 }
-      /* --- Code block container with copy button --- */
-pre {
-  position: relative;
+    /* Wrap the entire block like Docusaurus */
+.code-block-wrapper {
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  margin: 1.25rem 0;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
 }
 
-.code-copy-btn {
-  position: absolute;
-  top: 0.4rem;
-  right: 0.6rem;
+/* Toolbar */
+.code-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  padding: 0.4rem 0.6rem;
   background: #f3f4f6;
-  border: 1px solid #d1d5db;
-  padding: 0.15rem 0.45rem;
-  font-size: 0.75rem;
-  border-radius: 4px;
-  cursor: pointer;
-  color: #374151;
-  transition: background 0.15s ease;
+  border-bottom: 1px solid #d0d7de;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  style = "github-light"
 }
 
-.code-copy-btn:hover {
-  background: #e5e7eb;
+/* Buttons */
+.code-btn {
+  background: white;
+  border: 1px solid #c9d1d9;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  cursor: pointer;
 }
+
+.code-btn:hover {
+  background: #e6e6e6;
+}
+
+/* Code area */
+pre {
+  margin: 0;
+  padding: 1rem;
+  overflow: auto;
+  background: transparent !important;
+  border: none !important;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+/* Word wrap toggle */
+pre.wrap {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+} 
     </style>
   </head>
   <body>
@@ -215,28 +247,47 @@ pre {
       © {{ now.Year }} {{ .Site.Author.name | default "" }}
     </footer>
     <script>
-document.addEventListener("DOMContentLoaded", function () {
-  // Find all fenced code blocks
+document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("pre > code").forEach((codeBlock) => {
-    const pre = codeBlock.parentNode;
+    const pre = codeBlock.parentElement;
 
-    // Create button
-    const button = document.createElement("button");
-    button.className = "code-copy-btn";
-    button.type = "button";
-    button.innerText = "Copy";
+    // Create wrapper
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-block-wrapper";
 
-    // Copy handler
-    button.addEventListener("click", function () {
-      const text = codeBlock.innerText;
-      navigator.clipboard.writeText(text).then(() => {
-        button.innerText = "Copied!";
-        setTimeout(() => { button.innerText = "Copy"; }, 1500);
+    // Create toolbar
+    const toolbar = document.createElement("div");
+    toolbar.className = "code-toolbar";
+
+    // Copy button
+    const copyBtn = document.createElement("button");
+    copyBtn.className = "code-btn";
+    copyBtn.innerText = "Copy";
+
+    copyBtn.addEventListener("click", () => {
+      navigator.clipboard.writeText(codeBlock.innerText).then(() => {
+        copyBtn.innerText = "Copied!";
+        setTimeout(() => (copyBtn.innerText = "Copy"), 1500);
       });
     });
 
-    // Insert button into <pre>
-    pre.appendChild(button);
+    // Word wrap toggle
+    const wrapBtn = document.createElement("button");
+    wrapBtn.className = "code-btn";
+    wrapBtn.innerText = "Wrap";
+
+    wrapBtn.addEventListener("click", () => {
+      pre.classList.toggle("wrap");
+    });
+
+    // Insert buttons
+    toolbar.appendChild(copyBtn);
+    toolbar.appendChild(wrapBtn);
+
+    // Build the structure
+    pre.parentNode.insertBefore(wrapper, pre);
+    wrapper.appendChild(toolbar);
+    wrapper.appendChild(pre);
   });
 });
 </script>
