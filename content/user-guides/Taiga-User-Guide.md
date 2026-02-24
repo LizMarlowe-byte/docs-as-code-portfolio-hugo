@@ -105,11 +105,13 @@ Create your account using the Taiga Cloud Basic deployment option.
 > Alternatively, you can log in with GitHub or GitLab.
     
 
-    ---
+---
 
     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga1.png" alt="Create your Taiga account" title="Create your Taiga account" >}}
 
-    ---
+---
+
+ <div markdown="1">
 
     |Field             |Description|
     |:-----------------|:-----------------------|
@@ -118,6 +120,8 @@ Create your account using the Taiga Cloud Basic deployment option.
     |Email             |Enter your email address. |
     |Password          |Enter a unique password. |
     |When creating a new account, you agree to your terms of service and privacy policy.| Select this setting.|
+
+ </div>
 
 3. Select **Sign Up**.
 
