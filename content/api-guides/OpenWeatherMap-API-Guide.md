@@ -88,12 +88,8 @@ Each tier offers specific rate limits and monthly quotas for API calls:
 |Expert         |100,000 calls/minute    |3 billion calls  |
 |Enterprise     |200,000 calls/minute    |5 billion calls  |
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-    These values are intentionally normalized for portfolio demonstration and do _not_ reflect current OpenWeatherMap pricing tiers.
-  </div>
-</div>
+> [!NOTE]
+> These values are intentionally normalized for portfolio demonstration and do _not_ reflect current OpenWeatherMap pricing tiers.
 
 ### Handling 429 errors (Too Many Requests)
 
@@ -144,14 +140,9 @@ GET https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=51.5085&lon=-0.1
 
 ```
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   `cnt` only limits the number of results. It does _not_ provide true pagination (such as page numbers or offsets). To retrieve additional data, you must send separate requests with different parameters.
-  </div>
-</div>
+> [!NOTE]
+> `cnt` only limits the number of results. It does _not_ provide true pagination (such as page numbers or offsets). To retrieve additional data, you must send separate requests with different parameters.
     
-	
 ---
 
 ## 🚀 Getting started
@@ -294,12 +285,8 @@ The API response will be similar to the following:
 ```
 Based on this response, the geographic coordinates for London, England are: `lat`:**51.5156177** and `lon`:**-0.0919983**.
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-    This sample shows a subset of the full response. The actual response includes additional objects for the specified range.
-  </div>
-</div>
+> [!NOTE]
+> This sample shows a subset of the full response. The actual response includes additional objects for the specified range.
 
 
 ### Step 3: Retrieve current weather data for London, England
@@ -347,12 +334,8 @@ Where the response elements are:
 If you get a similar response, you're all set up with the OpenWeatherMap API.
 
 ---
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   For more information about the JSON objects in the API response, see [API Reference](#api-reference).
-  </div>
-</div>
+> [!NOTE]
+> For more information about the JSON objects in the API response, see [API Reference](#api-reference).
     
 
 ## 📘 API reference
@@ -792,8 +775,8 @@ https://pro.openweathermap.org/data/2.5/forecast/hourly?lat=44.34&lon=10.99&appi
 
 Retrieves daily forecast data for any location on the globe. You can retrieve weather forecast data for up to 16 days in advance. Response data is available in JSON or XML formats.
 
-!!! note
-    This endpoint is deprecated in the real API. It is included here for portfolio purposes _only_. Prefer One Call API v3 (**/data/3.0/onecall**) for daily forecasts. 
+> [!NOTE]
+> This endpoint is deprecated in the real API. It is included here for portfolio purposes _only_. Prefer One Call API v3 (**/data/3.0/onecall**) for daily forecasts. 
 
 #### Method
 
@@ -1128,12 +1111,8 @@ Using this endpoint, you can request basic statistical data for the following we
 
 All statistical weather data can only be obtained in JSON format. The frequency of the data update is 1 hour.
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-    This endpoint does _not_ return real historical data. It returns statistically calculated data based on real historical data for a specific period of time.
-  </div>
-</div>
+> [!NOTE]
+> This endpoint does _not_ return real historical data. It returns statistically calculated data based on real historical data for a specific period of time.
 
 
 #### Method
@@ -1352,12 +1331,8 @@ https://history.openweathermap.org/data/2.5/history/accumulated_temperature?lat=
                                                    
 ```
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   This sample shows a subset of the full response. The actual response includes additional objects for the specified range.    
-  </div>
-</div>
+> [!NOTE]
+> This sample shows a subset of the full response. The actual response includes additional objects for the specified range.   
 
 
 #### Response elements
@@ -1416,12 +1391,8 @@ https://history.openweathermap.org/data/2.5/history/accumulated_precipitation?la
                                                    
 ```
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   This sample shows a subset of the full response. The actual response includes additional objects for the specified range. 
-  </div>
-</div>
+> [!NOTE]
+> This sample shows a subset of the full response. The actual response includes additional objects for the specified range. 
            
 
 #### Response elements
@@ -1432,13 +1403,8 @@ https://history.openweathermap.org/data/2.5/history/accumulated_precipitation?la
 |`rain`         |Accumulated precipitation for the date.                      |number  |Unit: **mm**.|
 |`count`        |Number of data measurements used in the accumulation of this data.                        |integer|               |
 
-<div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   The `threshold` parameter is _not_ used. The whole amount of precipitation data is provided for a specific period.
-  </div>
-</div>
-
+> [!NOTE]
+> The `threshold` parameter is _not_ used. The whole amount of precipitation data is provided for a specific period.
 
 ### Bulk download of weather data 📦 
 
@@ -1511,12 +1477,8 @@ https://bulk.openweathermap.org/snapshot/weather_14.json.gz?appid={API key}
 
 2. Unpack the downloaded file by using any suitable archiver software. You will then have a JSON or CSV formatted file that is ready to use.
 
-  <div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-       All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **weather_16.json.gz**, and the **CSV** filename for the same data is **weather_16.csv.gz**.
-  </div>
-</div>  
+> [!NOTE]
+> All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **weather_16.json.gz**, and the **CSV** filename for the same data is **weather_16.csv.gz**.
 
 
 3. To download updated weather data, repeat steps #1-2 at the times indicated in the column, **Updated by UTC Time**, by the table in step #1. 
@@ -1579,12 +1541,8 @@ https://bulk.openweathermap.org/snapshot/hourly1h_zip.eu.json.gz?appid={API key}
 
 2. Unpack the downloaded file by using any suitable archiver software. You will then have a JSON or CSV formatted file that is ready to use.
 
-   <div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-  All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **hourly1h_14.json.gz**, and the **CSV** filename for the same data is **hourly1h_14.csv.gz**.
- </div>
-</div>
+> [!NOTE]
+> All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **hourly1h_14.json.gz**, and the **CSV** filename for the same data is **hourly1h_14.csv.gz**.
 
 3. To download updated weather data, repeat steps #1-2 at the times indicated in the column, **Updated by UTC Time**, in the table in step #1. 
     Weather data is updated in these files on a regular basis.
@@ -1639,11 +1597,7 @@ https://bulk.openweathermap.org/archive/weather_zip_uk_011020_2000.csv.gz?appid=
 
 2. Unpack the downloaded file by using any suitable archiver software. You will then have a JSON or CSV formatted file that is ready to use.
 
-   <div class="admonition note">
-  <div class="admonition-title">Note</div>
-  <div class="admonition-body">
-   All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **hourly1h_zip_eu_011025_2015.json.gz**, and the **CSV** filename for the same data is **hourly1h_zip_eu_011025_2015.csv.gz**.
-  </div>
-</div>   
+> [!NOTE]
+> All bulk files are available in both JSON and CSV formats. Filenames in the above table are relevant for JSON format. To download files in CSV format, change **json** to **csv** in the filename. For example, the **JSON** filename is **hourly1h_zip_eu_011025_2015.json.gz**, and the **CSV** filename for the same data is **hourly1h_zip_eu_011025_2015.csv.gz**.
 
 3. To download updated weather data, repeat steps #1-2 at the times indicated in the column, **Available data per day, UTC time**, in the table on the page, [7-day archive of current and forecast weather bulks files](https://openweathermap.org/bulk#bulk_archive). Weather data is updated in these files on a regular basis.
