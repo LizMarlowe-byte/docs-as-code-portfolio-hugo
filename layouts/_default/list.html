@@ -2,7 +2,7 @@
 
   {{/* ---------- HOME PAGE (unchanged) ---------- */}}
   {{ if .IsHome }}
-    <h1>{{ .Title | default "Welcome" }}</h1>
+    <h1>{{ .Title | default "Documentation" }}</h1>
     {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
 
     <section class="cards">
@@ -32,13 +32,13 @@
       </a>
     </section>
 
-  {{/* ---------- SECTION LANDING PAGES (cards only, no sidebar, no duplicates) ---------- */}}
+  {{/* ---------- SECTION LANDING PAGES (GREEN BOX ONLY) ---------- */}}
   {{ else if .IsSection }}
 
     <article class="section-content">
       <h1>{{ .Title }}</h1>
       {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
-      {{/* If later you add Markdown body to _index.md, replace the previous line with: {{ .Content }} */}}
+      {{/* If you later add Markdown body to _index.md, replace the line above with: {{ .Content }} */}}
 
       <div class="cards">
         {{ range .Pages.ByWeight }}
@@ -52,7 +52,7 @@
       </div>
     </article>
 
-  {{/* ---------- Any other list (rare in your site) ---------- */}}
+  {{/* ---------- Any other list (rare) ---------- */}}
   {{ else }}
     <article>
       <h1>{{ .Title }}</h1>
