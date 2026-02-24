@@ -192,7 +192,6 @@
   position: sticky;
   top: 0;
   z-index: 2;
-  style = "github-light"
 }
 
 /* Buttons */
@@ -301,11 +300,45 @@ pre.wrap {
 .toc-sidebar nav ul ul ul {
   display: none;
 }
+.site-title a { color: inherit; text-decoration: none; }
+.site-title a:hover { text-decoration: underline; }
+      
+      /* === Section landing layout (left sidebar + cards) === */
+.section-with-sidebar {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* Sticky left nav (shows all guides in this section) */
+.left-nav {
+  position: sticky;
+  top: 90px;
+  max-height: calc(100vh - 90px);
+  overflow: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: .75rem .9rem;
+  background: #fafafa;
+}
+.left-nav h3 { margin: 0 0 .5rem 0; font-size: .95rem; color: #374151; }
+.left-tree ul { list-style: none; padding-left: 0; margin: 0; }
+.left-tree li { margin: .25rem 0; }
+.left-tree a { text-decoration: none; color: #374151; }
+.left-tree a:hover { text-decoration: underline; }
+.left-tree li.active > a { font-weight: 600; color: var(--brand-700); }
+
+/* Section intro text (from _index.md summary) */
+.section-intro { color:#4b5563; margin:.25rem 0 1rem; }
+
+/* Optional: scope a few margins when the right column hosts the section page */
+.section-content { min-width: 0; }
     </style>
   </head>
   <body>
     <header>
-      <h1 class="site-title">{{ .Site.Title }}</h1>
+      <h1 class="site-title">{{ {{ .Site.Title }}</a></h1>
       <nav>
         <a href="{{ (site.GetPage "/about").RelPermalink }}">About this Site</a>
         <a href="{{ (site.GetPage "section" "user-guides").RelPermalink }}">User Guides</a>
