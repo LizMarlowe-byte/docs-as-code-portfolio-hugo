@@ -1,18 +1,24 @@
-{{ $raw := .Raw }}
-{{ $firstLine := (split $raw "\n").0 }}
+{{- $raw := .Raw -}}
+{{- $lines := split $raw "\n" -}}
+{{- $first := index $lines 0 | trim -}}
 
-{{/* Detect syntax like: > [!NOTE] */}}
-{{ if findRE `^\[!([A-Z]+)\]` $firstLine }}
+{{/* Match [!NOTE], [!TIP], [!WARNING], [!INFO], [!EXAMPLE] */}}
+{{- if findRE `^\[!([A-Za-z]+)\]` $first -}}
 
-  {{/* Extract NOTE/TIP/WARNING/INFO/EXAMPLE */}}
-  {{ $type := replaceRE `^\[!([A-Z]+)\].*` "$1" $firstLine | lower }}
+  {{- $type := replaceRE `^\[!([A-Za-z]+)\].*` "$1" $first | lower -}}
+  {{- $remainingLines := slice -}}
+
+  {{/* Drop the first line ([!NOTE]) and keep the rest of the blockquote */}}
+  {{- range $i, $line := $lines -}}
+    {{- if gt $i 0 -}}
+      {{- $remainingLines = $remainingLines | append ($line | trim) -}}
+    {{- end -}}
+  {{- end -}}
 
   <div class="admonition {{ $type }}">
-    <div class="admonition-title">
-      {{ title $type }}
-    </div>
+    <div class="admonition-title">{{ title $type }}</div>
     <div class="admonition-body">
-      {{ .Inner | markdownify }}
+      {{ delimit $remainingLines "\n" | markdownify }}
     </div>
   </div>
 
@@ -23,3 +29,4 @@
   </blockquote>
 
 {{ end }}
+``
