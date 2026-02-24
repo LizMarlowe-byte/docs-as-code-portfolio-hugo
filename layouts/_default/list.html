@@ -36,11 +36,11 @@
   <article class="section-content">
     <h1>{{ .Title }}</h1>
     {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
-    {{/* If later you add Markdown body to _index.md, swap the previous line for: {{ .Content }} */}}
+    {{/* If later you add Markdown content to _index.md, replace the line above with: {{ .Content }} */}}
 
     <div class="cards">
       {{ range .Pages.ByWeight }}
-        {{ .RelPermalink }}
+        <a class="card" href="{{ .RelPermalink }}">
           <h2>{{ .LinkTitle | default .Title }}</h2>
           <p class="muted">
             {{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
