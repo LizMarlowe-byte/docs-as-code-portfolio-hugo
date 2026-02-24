@@ -386,10 +386,3 @@ To validate that everything is configured correctly for the integration, use the
 
 4. Upon receiving a success response (200), share the results with Optiflow for the CloudSync integration.
 
-
-
-
-
-
-
-{{< /note >}}
