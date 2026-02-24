@@ -228,7 +228,7 @@ pre.wrap {
       /* Layout with right-side TOC */
 .content-with-toc {
   display: grid;
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr 320px;
   gap: 2rem;
   align-items: start;
 }
@@ -264,11 +264,42 @@ pre.wrap {
 .toc-sidebar a {
   color: #374151;
   text-decoration: none;
+  word-break: normal;
+  white-space: normal;
+  overflow-wrap: anywhere;
+
 }
 
 .toc-sidebar a:hover {
   text-decoration: underline;
   color: #111827;
+}
+      /* Indent H3 under H2 */
+.toc-sidebar nav ul ul {
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid #e5e7eb;
+}
+
+/* --- Collapse/Expand behavior --- */
+.toc-sidebar nav ul ul { display: none; }              /* hidden by default */
+.toc-sidebar nav ul ul.open { display: block; }        /* show when open */
+
+.toc-sidebar li.toc-collapsible > a::before {
+  content: "▸";
+  margin-right: .3rem;
+  font-size: .75rem;
+  display: inline-block;
+  transform: translateY(-1px);
+  color: #6b7280;
+}
+.toc-sidebar li.toc-collapsible.expanded > a::before {
+  content: "▾";
+}
+
+/* Hide deeper levels (H4+) */
+.toc-sidebar nav ul ul ul {
+  display: none;
 }
     </style>
   </head>
@@ -293,22 +324,25 @@ pre.wrap {
     </footer>
     <script>
 document.addEventListener("DOMContentLoaded", () => {
+  /* =========================================================
+   * 1) CODE BLOCKS — Toolbar (Copy + Wrap) for all <pre><code>
+   * =======================================================*/
   document.querySelectorAll("pre > code").forEach((codeBlock) => {
     const pre = codeBlock.parentElement;
 
-    // Create wrapper
+    // Wrapper
     const wrapper = document.createElement("div");
     wrapper.className = "code-block-wrapper";
 
-    // Create toolbar
+    // Toolbar
     const toolbar = document.createElement("div");
     toolbar.className = "code-toolbar";
 
     // Copy button
     const copyBtn = document.createElement("button");
     copyBtn.className = "code-btn";
+    copyBtn.type = "button";
     copyBtn.innerText = "Copy";
-
     copyBtn.addEventListener("click", () => {
       navigator.clipboard.writeText(codeBlock.innerText).then(() => {
         copyBtn.innerText = "Copied!";
@@ -316,24 +350,51 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // Word wrap toggle
+    // Word-wrap toggle
     const wrapBtn = document.createElement("button");
     wrapBtn.className = "code-btn";
+    wrapBtn.type = "button";
     wrapBtn.innerText = "Wrap";
-
     wrapBtn.addEventListener("click", () => {
       pre.classList.toggle("wrap");
     });
 
-    // Insert buttons
+    // Assemble
     toolbar.appendChild(copyBtn);
     toolbar.appendChild(wrapBtn);
-
-    // Build the structure
     pre.parentNode.insertBefore(wrapper, pre);
     wrapper.appendChild(toolbar);
     wrapper.appendChild(pre);
   });
+
+  /* ==========================================
+   * 2) TOC — Collapse/expand H2 → show H3 list
+   * ========================================*/
+  const tocRoot = document.querySelector(".toc-sidebar nav > ul");
+  if (tocRoot) {
+    // For each top-level <li> (H2), collapse its nested <ul> (H3) by default
+    tocRoot.querySelectorAll(":scope > li").forEach((topItem) => {
+      const sub = topItem.querySelector(":scope > ul");
+      const headingLink = topItem.querySelector(":scope > a");
+
+      if (sub && headingLink) {
+        // Mark as collapsible
+        topItem.classList.add("toc-collapsible");
+
+        // Start collapsed (remove 'open' below if you want them open by default)
+        sub.classList.remove("open");
+
+        // Click on the H2 link toggles visibility of its H3 children
+        headingLink.addEventListener("click", (e) => {
+          // Allow normal anchor navigation but also toggle subgroup.
+          // If you prefer the click ONLY toggles, uncomment the next line:
+          // e.preventDefault();
+          sub.classList.toggle("open");
+          topItem.classList.toggle("expanded");
+        });
+      }
+    });
+  }
 });
 </script>
   </body>
