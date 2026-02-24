@@ -107,9 +107,7 @@ Create your account using the Taiga Cloud Basic deployment option.
 
 ---
 
-
-    {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga1.png" alt="Create your Taiga account" title="Create your Taiga account" >}}
-
+{{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga1.png" alt="Create your Taiga account" title="Create your Taiga account" >}}
 
 ---
 
@@ -158,9 +156,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
 
      ---
 
-
      {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga3.png" alt="Create project" title="Create project" >}}
-
 
      ---
 	
@@ -183,9 +179,7 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
     
     ---
 
-
     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
-
 
     ---
 
