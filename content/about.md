@@ -22,8 +22,7 @@ This portfolio series is my opportunity to:
 - Create a curated, public‑facing writing and tooling portfolio  
 
 > **Tip:**  
-> In Hugo, the file `content/_index.md` serves as the site’s homepage (this page).  
-> Section landing pages use `content/<section>/_index.md`.
+> In Hugo, the file `content/_index.md` serves as the site’s homepage (this page). Section landing pages use `content/<section>/_index.md`.
 
 ---
 
@@ -61,12 +60,10 @@ This portfolio series is my opportunity to:
 
 ---
 
-## 🚧 What’s Next: 4‑SSG Series Roadmap
+## 🚧 All 4‑SSG Series Completed
 1. **MkDocs** — ✔️ Completed  
-2. **Hugo** — Work in progress  
+2. **Hugo** — ✔️ Completed 
 3. **Docusaurus** — ✔️ Completed  
 4. **Jekyll** — ✔️ Completed
-
-At the end of the series, I’ll publish a comparative write‑up covering setup, customization, plugin ecosystems, docs‑as‑code workflows, and best use cases.
 
 ---
