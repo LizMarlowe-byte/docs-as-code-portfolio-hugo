@@ -1,9 +1,0 @@
-{{/* layouts/shortcodes/tip.html */}}
-{{- $raw := .Inner -}}
-{{- $dedent := replaceRE "(?m)^[ \t]{4}" "" $raw -}}
-<div class="admonition tip">
-  <div class="admonition-title">Tip</div>
-  <div class="admonition-body">
-    {{ $dedent | markdownify }}
-  </div>
-</div>
