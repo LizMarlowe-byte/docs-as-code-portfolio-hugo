@@ -259,14 +259,15 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 	
 	</div>
 
-   > [!TIP]
-   > If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
 
-4. Select **Send invitation**.
+> [!TIP]
+> If you want to assign different roles to different members, send one invitation for members for whom you want to assign the _same_ role. Then, send a _different_ invitation for members for whom you want to assign a _different_ role.
+
+5. Select **Send invitation**.
 
     The system sends an email invite to all valid email addresses.
 
-5. On the **Members** page, on the **Pending** tab, view all invited members who still need to accept their invitation.
+6. On the **Members** page, on the **Pending** tab, view all invited members who still need to accept their invitation.
 
      ---
 
@@ -285,7 +286,7 @@ Invite people to collaborate in your workspace. Assign the invited members to ei
 
     </div>
 
- 6. On the **Members** page, on the **Members** tab, view all invited members who have accepted their invitation.
+ 7. On the **Members** page, on the **Members** tab, view all invited members who have accepted their invitation.
 
     ---
 
