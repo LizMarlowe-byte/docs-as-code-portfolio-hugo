@@ -338,7 +338,7 @@ pre.wrap {
   </head>
   <body>
     <header>
-      <h1 class="site-title"><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+      <h1 class="site-title">{{ "/" | relURL }}{{ .Site.Title }}</a></h1>
       <nav>
         <a href="{{ (site.GetPage "/about").RelPermalink }}">About this Site</a>
         <a href="{{ (site.GetPage "section" "user-guides").RelPermalink }}">User Guides</a>
