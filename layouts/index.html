@@ -1,0 +1,35 @@
+{{ define "main" }}
+  <!-- Move your home-page cards/content here.
+       This is the SAME content you showed me in your home.html. -->
+  <section style="text-align:center;max-width:900px;margin:0 auto;">
+    <h1>Documentation</h1>
+    <p class="muted">Explore the guide categories below.</p>
+
+    {{ $ug := site.GetPage "section" "user-guides" }}
+    {{ $ag := site.GetPage "section" "api-guides" }}
+    {{ $ht := site.GetPage "section" "how-to-articles" }}
+    {{ $rg := site.GetPage "section" "technical-reference-guides" }}
+
+    <div class="cards" style="margin-top:1.25rem">
+      <a class="card" href="{{ $ug.RelPermalink }}">
+        <h2>User Guides</h2>
+        <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      <a class="card" href="{{ $ag.RelPermalink }}">
+        <h2>API Guides</h2>
+        <p class="muted">{{ with $ag }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      <a class="card" href="{{ $ht.RelPermalink }}">
+        <h2>How to Articles</h2>
+        <p class="muted">{{ with $ht }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+
+      <a class="card" href="{{ $rg.RelPermalink }}">
+        <h2>Technical Reference Guides</h2>
+        <p class="muted">{{ with $rg }}{{ .Params.summary }}{{ end }}</p>
+      </a>
+    </div>
+  </section>
+{{ end }}
