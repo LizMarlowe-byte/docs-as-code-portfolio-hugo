@@ -140,8 +140,8 @@ Log on to the CloudSync tenant application as an administrator.
 
 4. From **Available Entities**, move the relevant CDC entities that are in scope for the integration to **Selected Entities**, which can include:<ul><li>**SupportTicket**</li><li>**ChatSession**</li><li>**VideoSession**</li><li>**UserPresence**</li></ul>
 
-    !!! note
-        Only select the entities that are included in the integration. For example, if chats are not included, do _not_ select **ChatSession**.
+> [!NOTE]
+> Only select the entities that are included in the integration. For example, if chats are not included, do _not_ select **ChatSession**.
 
 5. Select **Save**.
 
