@@ -66,6 +66,7 @@
 .admonition.tip     { border-left-color: #10b981; }
 .admonition.warning { border-left-color: #f59e0b; }
 .admonition.info    { border-left-color: #0ea5e9; }
+.admonition.example { border-left-color: #8b5cf6; } /* purple-500 */
 
 /* Tighten spacing for nested lists and code in admonitions */
 .admonition-body ul,
@@ -93,12 +94,14 @@
 .admonition.tip .admonition-title::before     { content: "💡"; }
 .admonition.warning .admonition-title::before { content: "⚠"; }
 .admonition.info .admonition-title::before    { content: "🛈"; }
+.admonition.example .admonition-title::before { content: "📘"; }
 
 /* Optional: slightly tinted backgrounds per type */
 .admonition.note    { background: #f3f8ff; }
 .admonition.tip     { background: #f3fcf7; }
 .admonition.warning { background: #fff8ec; }
 .admonition.info    { background: #f2f9ff; }
+.admonition.example { background: #f5f3ff; } /* Tailwind's purple-50 */
 
       footer{border-top:1px solid var(--border);color:var(--muted);font-size:.875rem}
 
