@@ -33,20 +33,22 @@
 
   {{ else if .IsSection }}
 
-  <div class="section-with-sidebar">
-    <aside class="left-nav">
-      <h3>{{ .Section | humanize }}</h3>
-      <nav class="left-tree">
-        <ul>
-          {{ $cur := . }}
-          {{ range .Pages.ByWeight }}
-            <li class="{{ if eq .RelPermalink $cur.RelPermalink }}active{{ end }}">
-              <a href="{{ .RelPermalink }}">{{ .LinkTitle | default .Title }}</a>
-            </li>
-          {{ end }}
-        </ul>
-      </nav>
-    </aside>
+  <article class="section-content">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+    {{/* If later you add Markdown body to _index.md, swap the previous line for: {{ .Content }} */}}
+
+    <div class="cards">
+      {{ range .Pages.ByWeight }}
+        {{ .RelPermalink }}
+          <h2>{{ .LinkTitle | default .Title }}</h2>
+          <p class="muted">
+            {{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
+          </p>
+        </a>
+      {{ end }}
+    </div>
+  </article>
 
     <article class="section-content">
       <h1>{{ .Title }}</h1>
