@@ -60,7 +60,7 @@ This portfolio series is my opportunity to:
 
 ---
 
-## 🚧 All 4‑SSG Series Completed
+## ✅ All 4‑SSG Series Completed
 1. **MkDocs** — ✔️ Completed  
 2. **Hugo** — ✔️ Completed 
 3. **Docusaurus** — ✔️ Completed  
