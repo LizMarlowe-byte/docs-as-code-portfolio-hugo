@@ -1,0 +1,25 @@
+{{ $raw := .Raw }}
+{{ $firstLine := (split $raw "\n").0 }}
+
+{{/* Detect syntax like: > [!NOTE] */}}
+{{ if findRE `^\[!([A-Z]+)\]` $firstLine }}
+
+  {{/* Extract NOTE/TIP/WARNING/INFO/EXAMPLE */}}
+  {{ $type := replaceRE `^\[!([A-Z]+)\].*` "$1" $firstLine | lower }}
+
+  <div class="admonition {{ $type }}">
+    <div class="admonition-title">
+      {{ title $type }}
+    </div>
+    <div class="admonition-body">
+      {{ .Inner | markdownify }}
+    </div>
+  </div>
+
+{{ else }}
+
+  <blockquote>
+    {{ .Inner }}
+  </blockquote>
+
+{{ end }}
