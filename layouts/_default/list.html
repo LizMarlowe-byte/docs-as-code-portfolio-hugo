@@ -1,6 +1,5 @@
 {{ define "main" }}
 
-  {{/* ---------- HOME PAGE (unchanged) ---------- */}}
   {{ if .IsHome }}
     <h1>{{ .Title | default "Documentation" }}</h1>
     {{ with .Content }}<p class="muted">{{ . }}</p>{{ end }}
@@ -11,38 +10,37 @@
       {{ $ht := site.GetPage "section" "how-to-articles" }}
       {{ $rg := site.GetPage "section" "technical-reference-guides" }}
 
-      {{ $ug.RelPermalink }}
+      <a class="card" href="{{ $ug.RelPermalink }}">
         <h2>User Guides</h2>
         <p class="muted">{{ with $ug }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ $ag.RelPermalink }}
+      <a class="card" href="{{ $ag.RelPermalink }}">
         <h2>API Guides</h2>
         <p class="muted">{{ with $ag }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ $ht.RelPermalink }}
+      <a class="card" href="{{ $ht.RelPermalink }}">
         <h2>How to Articles</h2>
         <p class="muted">{{ with $ht }}{{ .Params.summary }}{{ end }}</p>
       </a>
 
-      {{ $rg.RelPermalink }}
+      <a class="card" href="{{ $rg.RelPermalink }}">
         <h2>Technical Reference Guides</h2>
         <p class="muted">{{ with $rg }}{{ .Params.summary }}{{ end }}</p>
       </a>
     </section>
 
-  {{/* ---------- SECTION LANDING PAGES (GREEN BOX ONLY) ---------- */}}
   {{ else if .IsSection }}
 
     <article class="section-content">
       <h1>{{ .Title }}</h1>
       {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
-      {{/* If you later add Markdown body to _index.md, replace the line above with: {{ .Content }} */}}
+      {{/* If later you add Markdown body to _index.md, replace the previous line with: {{ .Content }} */}}
 
       <div class="cards">
         {{ range .Pages.ByWeight }}
-          {{ .RelPermalink }}
+          <a class="card" href="{{ .RelPermalink }}">
             <h2>{{ .LinkTitle | default .Title }}</h2>
             <p class="muted">
               {{ with .Params.summary }}{{ . }}{{ else }}{{ .Summary }}{{ end }}
@@ -52,7 +50,6 @@
       </div>
     </article>
 
-  {{/* ---------- Any other list (rare) ---------- */}}
   {{ else }}
     <article>
       <h1>{{ .Title }}</h1>
