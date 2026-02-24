@@ -107,7 +107,9 @@ Create your account using the Taiga Cloud Basic deployment option.
 
 ---
 
+
     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga1.png" alt="Create your Taiga account" title="Create your Taiga account" >}}
+
 
 ---
 
@@ -181,15 +183,22 @@ You can create a Scrum or Kanban project. You can also copy an existing project 
     
     ---
 
+
     {{< figure src="https://lizmarlowe-byte.github.io/docs-as-code-portfolio-hugo/assets/img/Taiga4.png" alt="Enter project details" title="Enter project details" >}}
+
 
     ---
 
-    |Field |Description|
-    |:-----------------|:-----------------------|
-    |Project Name      |Enter a unique name for your project.|
-    |Project Description |Enter a description for your project, which can include the type of entities the project will include (epics, stories, tasks, etc.) the target software release, and even details about the team members.
-    |Public Project / Private Project |Select whether the project is open to all users (**Public**) or just the project's team members (**Private**). <br>The number of public projects you can create is determined by your [Taiga subscription plan](#taiga-deployment-options). For more information, see [What's the difference between public and private projects?](https://community.taiga.io/t/whats-the-difference-between-public-and-private-projects/139)
+
+ <div markdown="1">
+	 
+|Field |Description|
+|:-----------------|:-----------------------|
+|Project Name      |Enter a unique name for your project.|
+|Project Description |Enter a description for your project, which can include the type of entities the project will include (epics, stories, tasks, etc.) the target software release, and even details about the team members.
+|Public Project / Private Project |Select whether the project is open to all users (**Public**) or just the project's team members (**Private**). <br>The number of public projects you can create is determined by your [Taiga subscription plan](#taiga-deployment-options). For more information, see [What's the difference between public and private projects?](https://community.taiga.io/t/whats-the-difference-between-public-and-private-projects/139)
+
+</div>
 
 
 5. Select **Create Project**.
@@ -700,7 +709,7 @@ Create a _sprint_, a timeboxed period for completing user stories. Typically, mu
 
 **Before you begin**
 
-Complete all steps in [Scrum backlog management](#scrum-backlog-management)
+Complete all steps in [Scrum backlog management](#scrum-backlog-management).
 
 **Procedure**
 
