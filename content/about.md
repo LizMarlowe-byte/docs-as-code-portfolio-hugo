@@ -21,7 +21,7 @@ This portfolio series is my opportunity to:
 - Build documentation sites end‑to‑end using best practices  
 - Create a curated, public‑facing writing and tooling portfolio  
 
-> **Tip:**  
+> [!TIP]
 > In Hugo, the file `content/_index.md` serves as the site’s homepage (this page). Section landing pages use `content/<section>/_index.md`.
 
 ---
