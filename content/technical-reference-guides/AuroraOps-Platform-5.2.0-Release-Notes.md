@@ -4,7 +4,7 @@ summary: "This document summarizes the new features, product enhancements, resol
 draft: false
 ---
 
-## <h2 id="auroraOps-5.2.0-overview">📄 AuroraOps 5.2.0 overview</h2> 
+## 📄 AuroraOps 5.2.0 overview
 
 **Release Version:** 5.2.0  
 **Release Date:** February 5, 2026
@@ -15,13 +15,13 @@ For questions or support, contact the AuroraOps Support Team at *support@aurorao
 
 ---
 
-## <h2 id="target-audience">🎯 Target audience</h2>
+## 🎯 Target audience
 
 This document is intended for customers and partners who need to understand what’s new or improved in the AuroraOps Platform 5.2.0 release.
 
 ---
 
-## <h2 id="new-features">🚀 New features </h2> 
+## 🚀 New features
 
 This release introduces several new features designed to enhance usability, improve workflow efficiency, and expand the platform’s core capabilities.
 	
@@ -93,7 +93,7 @@ This includes:
 
 ---
 
-## <h2 id="resolved-issues">🛠 Resolved issues </h2> 
+## 🛠 Resolved issues
 
 | Issue ID | Description | Resolution |
 |:----------|:-------------|:------------|
@@ -104,7 +104,7 @@ This includes:
 
 ---
 
-## <h2 id="known-issues">⚠️ Known issues </h2>
+## ⚠️ Known issues
 
 
 ### 1. Delayed webhook delivery under high load
@@ -135,7 +135,7 @@ When saving from the **Advanced Search** dialog box, clicking the **Save** butto
 A user creates a group, configures a scheduling period for the group, and assigns it to a queue. The user navigates to the Scheduling screen, but is unable to edit any scheduling values or run any other actions for the newly created group.
 **Workaround:** Refresh the Scheduling screen. After refreshing the screen, the user privileges are updated and all the actions the user is entitled to are enabled.
 
-## <h2 id="hotfixes">🔧 Hotfixes</h2>
+## 🔧 Hotfixes
 
 | Hotfix ID | Release Date | Affected Version(s) | Description | Status |
 |:-----------|:--------------|:---------------------|:-------------|:--------|
@@ -145,7 +145,7 @@ A user creates a group, configures a scheduling period for the group, and assign
 
 ---
 
-## <h2 id="additional-notes">📚 Additional notes </h2>
+## 📚 Additional notes
 
 ### Deprecations
 
