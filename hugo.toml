@@ -3,9 +3,9 @@ title = "Docs Site Using Hugo"
 languageCode = "en-us"
 enableRobotsTXT = true
 
-[author]
+[params.author]
   name = "Liz Marlowe"
-  email = "you@example.com"
+  email = "Liz.Marlowe@gmail.com"
   
 # Permalinks MUST use the exact section folder names under `content/`
 [permalinks]
