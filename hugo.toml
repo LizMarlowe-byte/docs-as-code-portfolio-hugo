@@ -3,6 +3,10 @@ title = "Docs Site Using Hugo"
 languageCode = "en-us"
 enableRobotsTXT = true
 
+[author]
+  name = "Liz Marlowe"
+  email = "you@example.com"
+  
 # Permalinks MUST use the exact section folder names under `content/`
 [permalinks]
   user-guides                 = "/user-guides/:slug/"
