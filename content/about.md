@@ -58,12 +58,3 @@ This portfolio series is my opportunity to:
 **Source & CI (this site):**  
 [Repository](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo) · [Actions](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/actions)
 
----
-
-## ✅ All 4‑SSG Series Completed
-1. **MkDocs** — ✔️ Completed  
-2. **Hugo** — ✔️ Completed 
-3. **Docusaurus** — ✔️ Completed  
-4. **Jekyll** — ✔️ Completed
-
----
