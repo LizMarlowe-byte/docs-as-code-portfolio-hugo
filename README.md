@@ -24,7 +24,7 @@ This portfolio series is my opportunity to:
 ### 🔧 Workflow & Architecture
 - Section‑based IA using **Hugo’s content sections** (`content/user-guides`, `content/api-guides`, etc.) with clean section landing pages (`_index.md`) 
 - Markdown authoring and **Git‑based reviews**  
-- **Accessibility‑minded** content (alt text on images, clear headings)
+- Accessibility‑minded content (alt text on images, clear headings)
 
 ### 🚀 Build & Delivery
 - **GitHub Actions** workflow that installs **Hugo Extended**, builds the site, and deploys to **GitHub Pages**  
