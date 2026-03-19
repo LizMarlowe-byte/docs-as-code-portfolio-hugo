@@ -1,6 +1,6 @@
 # Doc Site Using Hugo
 
-Welcome to the third project in my **Docs‑as‑Code Portfolio Series**, where I’m building and publishing documentation sites using four different static site generators: **MkDocs**, **Hugo**, **Docusaurus**, and **Jekyll**.
+Welcome to the fourth project in my **Docs‑as‑Code Portfolio Series**, where I’m building and publishing documentation sites using four different static site generators: **MkDocs**, **Hugo**, **Docusaurus**, and **Jekyll**.
 
 This site represents my work with **Hugo** and demonstrates how I approach modern documentation workflows—from information architecture and content strategy to automated builds and publishing.
 
