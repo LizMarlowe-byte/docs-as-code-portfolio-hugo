@@ -1,4 +1,4 @@
-
+# Doc Site Using Hugo
 
 Welcome to the third project in my **Docs‑as‑Code Portfolio Series**, where I’m building and publishing documentation sites using four different static site generators: **MkDocs**, **Hugo**, **Docusaurus**, and **Jekyll**.
 
@@ -17,9 +17,6 @@ This portfolio series is my opportunity to:
 - Build documentation sites end‑to‑end using best practices  
 - Create a curated, public‑facing writing and tooling portfolio  
 
-> [!TIP]
-> In Hugo, the file `content/_index.md` serves as the site’s homepage (this page). Section landing pages use `content/<section>/_index.md`.
-
 ---
 
 ## ⚙️ What I Built Using **Hugo**
@@ -33,10 +30,6 @@ This portfolio series is my opportunity to:
 - **GitHub Actions** workflow that installs **Hugo Extended**, builds the site, and deploys to **GitHub Pages**  
 - **Project‑site**‑safe URLs using Hugo’s URL helpers (e.g., `{{ "assets/img/foo.png" | relURL }}`), so links and assets work under `/<repo>/`  
 - Assets stored under `static/assets/…` (served at `/assets/...` in the built site)
-
-> **Build & Hosting Notes**  
-> - This is a **GitHub Pages *project* site** (not `username.github.io`). The site is hosted under a subpath, so links and images are generated with Hugo’s URL helpers to honor the configured `baseURL`.  
-> - Using **GitHub Actions** to deploy keeps the build environment consistent and avoids local toolchain issues; every push to `main` rebuilds and deploys automatically.
 
 ### 📚 Organized Documentation Examples
 - **User Guides** → `/user-guides/`  
