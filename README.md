@@ -33,9 +33,9 @@ This portfolio series is my opportunity to:
 
 ### 📚 Organized Documentation Examples
 - [User Guides](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/tree/main/content/user-guides) 
-- **API Guides** → `/api-guides/`  
-- **How‑to Articles** → `/how-to-articles/`  
-- **Technical Reference Guides** → `/technical-reference-guides/`  
+- [API Guides](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/tree/main/content/api-guides)
+- [How To Articles](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/tree/main/content/how-to-articles)
+- [Technical Reference Guides](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/tree/main/content/technical-reference-guides)
 
 ---
 
