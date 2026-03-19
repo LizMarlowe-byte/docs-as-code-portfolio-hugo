@@ -22,13 +22,13 @@ This portfolio series is my opportunity to:
 ## ⚙️ What I Built Using **Hugo**
 
 ### 🔧 Workflow & Architecture
-- Section‑based IA using **Hugo’s content sections** (`content/user-guides`, `content/api-guides`, etc.) with clean section landing pages (`_index.md`) 
-- Markdown authoring and **Git‑based reviews**  
+- Section‑based IA using Hugo’s content sections with clean section landing pages
+- Markdown authoring and Git‑based reviews  
 - Accessibility‑minded content (alt text on images, clear headings)
 
 ### 🚀 Build & Delivery
-- **GitHub Actions** workflow that installs **Hugo Extended**, builds the site, and deploys to **GitHub Pages**  
-- **Project‑site**‑safe URLs using Hugo’s URL helpers (e.g., `{{ "assets/img/foo.png" | relURL }}`), so links and assets work under `/<repo>/`  
+- GitHub Actions workflow that installs Hugo Extended, builds the site, and deploys to GitHub Pages
+- Project‑site‑safe URLs using Hugo’s URL helpers (e.g., `{{ "assets/img/foo.png" | relURL }}`), so links and assets work under `/<repo>/`  
 - Assets stored under `static/assets/…` (served at `/assets/...` in the built site)
 
 ### 📚 Organized Documentation Examples
@@ -40,9 +40,9 @@ This portfolio series is my opportunity to:
 ---
 
 ## 🧱 Tech Stack
-- **Hugo (Extended)** for static generation (Markdown + Go templates)  
-- **GitHub Actions** to build/deploy  
-- **GitHub Pages** project‑site hosting; URLs generated with Hugo helpers for subpath safety
+- Hugo (Extended) for static generation (Markdown + Go templates)  
+- GitHub Actions to build/deploy  
+- GitHub Pages project‑site hosting; URLs generated with Hugo helpers for subpath safety
 
 **Source & CI (this site):**  
 [Repository](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo) · [Actions](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/actions)
