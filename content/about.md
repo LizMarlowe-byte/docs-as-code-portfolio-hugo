@@ -43,10 +43,10 @@ This portfolio series is my opportunity to:
 > - Using **GitHub Actions** to deploy keeps the build environment consistent and avoids local toolchain issues; every push to `main` rebuilds and deploys automatically.
 
 ### 📚 Organized Documentation Examples
-- **User Guides** → `/user-guides/`  
-- **API Guides** → `/api-guides/`  
-- **How‑to Articles** → `/how-to-articles/`  
-- **Technical Reference Guides** → `/technical-reference-guides/`  
+- [User Guides](/user-guides/)
+- [API Guides](/api-guides/)
+- [How‑To Articles](/how-to-articles/)
+- [Technical Reference Guides](/technical-reference-guides/)
 
 ---
 
