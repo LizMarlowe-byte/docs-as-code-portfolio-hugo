@@ -32,7 +32,7 @@ This portfolio series is my opportunity to:
 - Assets stored under `static/assets/…` (served at `/assets/...` in the built site)
 
 ### 📚 Organized Documentation Examples
-- **User Guides** → `/user-guides/`  
+- [User Guides](https://github.com/LizMarlowe-byte/docs-as-code-portfolio-hugo/tree/main/content/user-guides) 
 - **API Guides** → `/api-guides/`  
 - **How‑to Articles** → `/how-to-articles/`  
 - **Technical Reference Guides** → `/technical-reference-guides/`  
